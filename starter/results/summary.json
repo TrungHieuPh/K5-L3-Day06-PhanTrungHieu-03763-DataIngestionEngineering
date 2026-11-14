@@ -1,0 +1,532 @@
+{
+  "run": {
+    "started_at_utc": "2026-11-14T16:12:50+00:00",
+    "finished_at_utc": "2026-11-14T16:14:33+00:00",
+    "source_sha256": "3c865f3d92ba23604e316360b902297ddbc0d1c394d3c08a466029a9d43b5b6c",
+    "benchmark": "BLLD_45_2019_QH14_bench_v2",
+    "embedding": {
+      "provider": "local (sentence-transformers, CPU)",
+      "model": "paraphrase-multilingual-MiniLM-L12-v2",
+      "dimensions": 384,
+      "max_seq_length_tokens": 128,
+      "normalize_embeddings": true,
+      "query_document_handling": "same encoder, no prefix, for queries and documents"
+    },
+    "vector_store": {
+      "engine": "PostgreSQL + pgvector (Docker, 127.0.0.1:55433)",
+      "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+      "pgvector": "0.8.7",
+      "table": "chunks (PRIMARY KEY strategy, chunk_id)",
+      "distance": "cosine (<=>), score = 1 - distance",
+      "search": "exact (sequential scan, no ANN index)",
+      "top_k": 3
+    },
+    "versions": {
+      "python": "3.14.3",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "sentence-transformers": "6.3.0",
+      "torch": "2.15.0",
+      "transformers": "5.23.0",
+      "psycopg": "3.3.8",
+      "pypdf": "6.21.4",
+      "numpy": "2.5.4"
+    },
+    "cost_usd": 0.0
+  },
+  "strategies": {
+    "A": {
+      "label": "fixed_size(500,50)",
+      "params": {
+        "chunking": "fixed_size",
+        "size_chars": 500,
+        "overlap_chars": 50
+      },
+      "chunk_stats": {
+        "n_chunks": 421,
+        "chars": {
+          "min": 258,
+          "median": 500,
+          "mean": 499.0,
+          "max": 500,
+          "total": 210075
+        },
+        "tokens": {
+          "median": 129,
+          "mean": 129.9,
+          "max": 160,
+          "total": 54674
+        },
+        "n_over_max_seq_length": 228,
+        "pct_over_max_seq_length": 0.5416,
+        "n_multi_article": 211,
+        "n_cross_page": 107
+      },
+      "resources": {
+        "chunk_s": 0.014,
+        "embed_s": 32.279,
+        "upsert_s": 0.406,
+        "avg_query_s": 0.1102,
+        "max_query_s": 0.2361,
+        "cost_usd": 0.0
+      },
+      "db_count_after_upsert": {
+        "rows": 421,
+        "distinct_chunk_ids": 421
+      },
+      "metrics": {
+        "all": {
+          "n": 25,
+          "hit@1": {
+            "hits": 13,
+            "rate": 0.52
+          },
+          "evidence_hit@3": {
+            "hits": 13,
+            "rate": 0.52
+          },
+          "article_hit@1": {
+            "hits": 18,
+            "rate": 0.72
+          },
+          "article_hit@3": {
+            "hits": 20,
+            "rate": 0.8
+          },
+          "evidence_union_hit@3": {
+            "hits": 13,
+            "rate": 0.52
+          },
+          "filter_compliance": {
+            "compliant": 4,
+            "n": 4
+          }
+        },
+        "dev": {
+          "n": 20,
+          "hit@1": {
+            "hits": 11,
+            "rate": 0.55
+          },
+          "evidence_hit@3": {
+            "hits": 11,
+            "rate": 0.55
+          },
+          "article_hit@1": {
+            "hits": 15,
+            "rate": 0.75
+          },
+          "article_hit@3": {
+            "hits": 16,
+            "rate": 0.8
+          },
+          "evidence_union_hit@3": {
+            "hits": 11,
+            "rate": 0.55
+          },
+          "filter_compliance": {
+            "compliant": 2,
+            "n": 2
+          }
+        },
+        "test": {
+          "n": 5,
+          "hit@1": {
+            "hits": 2,
+            "rate": 0.4
+          },
+          "evidence_hit@3": {
+            "hits": 2,
+            "rate": 0.4
+          },
+          "article_hit@1": {
+            "hits": 3,
+            "rate": 0.6
+          },
+          "article_hit@3": {
+            "hits": 4,
+            "rate": 0.8
+          },
+          "evidence_union_hit@3": {
+            "hits": 2,
+            "rate": 0.4
+          },
+          "filter_compliance": {
+            "compliant": 2,
+            "n": 2
+          }
+        },
+        "filter_only": {
+          "n": 4,
+          "hit@1": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "evidence_hit@3": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "article_hit@1": {
+            "hits": 2,
+            "rate": 0.5
+          },
+          "article_hit@3": {
+            "hits": 2,
+            "rate": 0.5
+          },
+          "evidence_union_hit@3": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "filter_compliance": {
+            "compliant": 4,
+            "n": 4
+          }
+        }
+      },
+      "filter_ablation": {
+        "n": 4,
+        "with_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 1,
+          "article_hit@3": 2
+        },
+        "without_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 1,
+          "article_hit@3": 2
+        },
+        "without_filter_out_of_scope_chunks": 4,
+        "without_filter_total_chunks": 12
+      }
+    },
+    "B": {
+      "label": "by_article",
+      "params": {
+        "chunking": "by_article",
+        "size_limit": null
+      },
+      "chunk_stats": {
+        "n_chunks": 220,
+        "chars": {
+          "min": 101,
+          "median": 718.5,
+          "mean": 853.2,
+          "max": 7248,
+          "total": 187695
+        },
+        "tokens": {
+          "median": 177.5,
+          "mean": 218.1,
+          "max": 1923,
+          "total": 47978
+        },
+        "n_over_max_seq_length": 148,
+        "pct_over_max_seq_length": 0.6727,
+        "n_multi_article": 0,
+        "n_cross_page": 72
+      },
+      "resources": {
+        "chunk_s": 0.009,
+        "embed_s": 10.437,
+        "upsert_s": 0.211,
+        "avg_query_s": 0.1041,
+        "max_query_s": 0.183,
+        "cost_usd": 0.0
+      },
+      "db_count_after_upsert": {
+        "rows": 220,
+        "distinct_chunk_ids": 220
+      },
+      "metrics": {
+        "all": {
+          "n": 25,
+          "hit@1": {
+            "hits": 12,
+            "rate": 0.48
+          },
+          "evidence_hit@3": {
+            "hits": 21,
+            "rate": 0.84
+          },
+          "article_hit@1": {
+            "hits": 12,
+            "rate": 0.48
+          },
+          "article_hit@3": {
+            "hits": 21,
+            "rate": 0.84
+          },
+          "evidence_union_hit@3": {
+            "hits": 21,
+            "rate": 0.84
+          },
+          "filter_compliance": {
+            "compliant": 4,
+            "n": 4
+          }
+        },
+        "dev": {
+          "n": 20,
+          "hit@1": {
+            "hits": 11,
+            "rate": 0.55
+          },
+          "evidence_hit@3": {
+            "hits": 18,
+            "rate": 0.9
+          },
+          "article_hit@1": {
+            "hits": 11,
+            "rate": 0.55
+          },
+          "article_hit@3": {
+            "hits": 18,
+            "rate": 0.9
+          },
+          "evidence_union_hit@3": {
+            "hits": 18,
+            "rate": 0.9
+          },
+          "filter_compliance": {
+            "compliant": 2,
+            "n": 2
+          }
+        },
+        "test": {
+          "n": 5,
+          "hit@1": {
+            "hits": 1,
+            "rate": 0.2
+          },
+          "evidence_hit@3": {
+            "hits": 3,
+            "rate": 0.6
+          },
+          "article_hit@1": {
+            "hits": 1,
+            "rate": 0.2
+          },
+          "article_hit@3": {
+            "hits": 3,
+            "rate": 0.6
+          },
+          "evidence_union_hit@3": {
+            "hits": 3,
+            "rate": 0.6
+          },
+          "filter_compliance": {
+            "compliant": 2,
+            "n": 2
+          }
+        },
+        "filter_only": {
+          "n": 4,
+          "hit@1": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "evidence_hit@3": {
+            "hits": 3,
+            "rate": 0.75
+          },
+          "article_hit@1": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "article_hit@3": {
+            "hits": 3,
+            "rate": 0.75
+          },
+          "evidence_union_hit@3": {
+            "hits": 3,
+            "rate": 0.75
+          },
+          "filter_compliance": {
+            "compliant": 4,
+            "n": 4
+          }
+        }
+      },
+      "filter_ablation": {
+        "n": 4,
+        "with_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 3,
+          "article_hit@3": 3
+        },
+        "without_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 2,
+          "article_hit@3": 2
+        },
+        "without_filter_out_of_scope_chunks": 2,
+        "without_filter_total_chunks": 12
+      }
+    },
+    "C": {
+      "label": "by_clause(200,800)",
+      "params": {
+        "chunking": "by_clause",
+        "min_chars": 200,
+        "max_chars": 800
+      },
+      "chunk_stats": {
+        "n_chunks": 554,
+        "chars": {
+          "min": 19,
+          "median": 296.5,
+          "mean": 338.2,
+          "max": 792,
+          "total": 187361
+        },
+        "tokens": {
+          "median": 78.0,
+          "mean": 87.8,
+          "max": 219,
+          "total": 48646
+        },
+        "n_over_max_seq_length": 86,
+        "pct_over_max_seq_length": 0.1552,
+        "n_multi_article": 0,
+        "n_cross_page": 52
+      },
+      "resources": {
+        "chunk_s": 0.024,
+        "embed_s": 23.158,
+        "upsert_s": 0.674,
+        "avg_query_s": 0.1443,
+        "max_query_s": 0.5302,
+        "cost_usd": 0.0
+      },
+      "db_count_after_upsert": {
+        "rows": 554,
+        "distinct_chunk_ids": 554
+      },
+      "metrics": {
+        "all": {
+          "n": 25,
+          "hit@1": {
+            "hits": 12,
+            "rate": 0.48
+          },
+          "evidence_hit@3": {
+            "hits": 15,
+            "rate": 0.6
+          },
+          "article_hit@1": {
+            "hits": 14,
+            "rate": 0.56
+          },
+          "article_hit@3": {
+            "hits": 18,
+            "rate": 0.72
+          },
+          "evidence_union_hit@3": {
+            "hits": 15,
+            "rate": 0.6
+          },
+          "filter_compliance": {
+            "compliant": 4,
+            "n": 4
+          }
+        },
+        "dev": {
+          "n": 20,
+          "hit@1": {
+            "hits": 10,
+            "rate": 0.5
+          },
+          "evidence_hit@3": {
+            "hits": 13,
+            "rate": 0.65
+          },
+          "article_hit@1": {
+            "hits": 12,
+            "rate": 0.6
+          },
+          "article_hit@3": {
+            "hits": 16,
+            "rate": 0.8
+          },
+          "evidence_union_hit@3": {
+            "hits": 13,
+            "rate": 0.65
+          },
+          "filter_compliance": {
+            "compliant": 2,
+            "n": 2
+          }
+        },
+        "test": {
+          "n": 5,
+          "hit@1": {
+            "hits": 2,
+            "rate": 0.4
+          },
+          "evidence_hit@3": {
+            "hits": 2,
+            "rate": 0.4
+          },
+          "article_hit@1": {
+            "hits": 2,
+            "rate": 0.4
+          },
+          "article_hit@3": {
+            "hits": 2,
+            "rate": 0.4
+          },
+          "evidence_union_hit@3": {
+            "hits": 2,
+            "rate": 0.4
+          },
+          "filter_compliance": {
+            "compliant": 2,
+            "n": 2
+          }
+        },
+        "filter_only": {
+          "n": 4,
+          "hit@1": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "evidence_hit@3": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "article_hit@1": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "article_hit@3": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "evidence_union_hit@3": {
+            "hits": 1,
+            "rate": 0.25
+          },
+          "filter_compliance": {
+            "compliant": 4,
+            "n": 4
+          }
+        }
+      },
+      "filter_ablation": {
+        "n": 4,
+        "with_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 1,
+          "article_hit@3": 1
+        },
+        "without_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 1,
+          "article_hit@3": 1
+        },
+        "without_filter_out_of_scope_chunks": 1,
+        "without_filter_total_chunks": 12
+      }
+    }
+  }
+}

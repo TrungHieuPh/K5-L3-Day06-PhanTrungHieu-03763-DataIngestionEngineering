@@ -1,0 +1,116 @@
+{
+  "manifest_version": "1.0",
+  "created_at": "2026-11-14",
+  "corpus_id": "BLLD_45_2019_QH14",
+  "corpus_title": "Bộ luật Lao động (số 45/2019/QH14)",
+  "description": "Văn bản quy phạm pháp luật của Việt Nam, điều chỉnh quan hệ lao động. Dùng cho Day 06 Data Ingestion lab.",
+
+  "sources": [
+    {
+      "source_id": "BLLD_45_2019_QH14",
+      "document_number": "45/2019/QH14",
+      "document_type": "Bộ luật",
+      "title": "Bộ luật Lao động",
+      "language": "vi",
+      "issuing_body": "Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam",
+      "signatory": "Nguyễn Thị Kim Ngân (Chủ tịch Quốc hội)",
+      "promulgation_date": "2019-11-20",
+      "effective_date": "2021-01-01",
+      "publisher_portal": "Cổng Thông tin điện tử Chính phủ (chinhphu.vn)",
+      "digital_signature": {
+        "signer_organization": "Cổng Thông tin điện tử Chính phủ",
+        "signer_office": "Văn phòng Chính phủ",
+        "signer_email": "thongtinchinhphu@chinhphu.vn",
+        "signed_at": "2019-12-31"
+      },
+      "source_url": "https://chinhphu.vn/?classid=1&docid=198540&pageid=27160&typegroupid=3",
+      "accessed_at": "2026-11-14",
+      "mirror_notes": "Bản PDF được lưu/sinh từ vnuf.edu.vn, cùng nội dung với bản công bố trên chinhphu.vn.",
+
+      "file": {
+        "local_path": "starter/data/bo_luat_lao_dong_45_2019_QH14.pdf",
+        "file_name": "bo_luat_lao_dong_45_2019_QH14.pdf",
+        "size_bytes": 1352965,
+        "sha256": "3c865f3d92ba23604e316360b902297ddbc0d1c394d3c08a466029a9d43b5b6c",
+        "mime_type": "application/pdf",
+        "has_text_layer": true,
+        "needs_ocr": false
+      },
+
+      "content_profile": {
+        "physical_pages": 94,
+        "content_pages_count": 93,
+        "content_pages_rule": "Trang có ≥ 1 ký tự sau strip. Trang 94 rỗng bị loại khỏi số trang nội dung nhưng giữ nguyên trong file.",
+        "empty_pages": [
+          {"page": 94, "reason": "Trang chữ ký điện tử của Cổng TTĐT Chính phủ, không có text sau khi extract"}
+        ],
+        "total_characters_stripped": 200577,
+        "structure_summary": {
+          "chapters_detected": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII"],
+          "chapters_count": 17,
+          "articles_expected": 220,
+          "articles_detected_in_quick_scan": 221,
+          "articles_scan_note": "Quick regex scan còn bắt nhầm số Điều từ các trích dẫn chéo (ví dụ 'Điều 328' thực ra là reference). Số Điều chính xác sẽ được xác định ở bước parsing."
+        }
+      }
+    }
+  ],
+
+  "license_and_permissions": {
+    "license": "Public domain (văn bản quy phạm pháp luật)",
+    "legal_basis": "Khoản 2 Điều 15 Luật Sở hữu trí tuệ Việt Nam: văn bản quy phạm pháp luật không thuộc đối tượng bảo hộ quyền tác giả.",
+    "redistribution": "Được phép sao chép, phân phối, sử dụng cho mục đích học tập và phi thương mại.",
+    "personal_data_note": "Chữ ký điện tử của Chủ tịch Quốc hội là thông tin công vụ, không phải dữ liệu cá nhân nhạy cảm theo GDPR/Luật Bảo vệ dữ liệu cá nhân."
+  },
+
+  "gold_reference_unit": {
+    "choice": "article",
+    "rationale": "Trong thực tiễn pháp lý, trích dẫn luật theo Điều (ví dụ 'Điều 90 BLLĐ') chính xác và ổn định hơn số trang PDF. Mỗi Điều là một đơn vị pháp lý độc lập.",
+    "gold_page_field_interpretation": "Trong file benchmark, field `gold_page` lưu số Điều (integer 1..220). Số trang PDF vẫn được ghi trong metadata của chunk để tra cứu."
+  },
+
+  "metadata_plan": {
+    "required_fields": {
+      "document_id": "BLLD_45_2019_QH14 (constant)",
+      "source": "file name hoặc URL, giúp truy nguyên",
+      "page": "số trang PDF (1..94) nơi chunk xuất hiện"
+    },
+    "additional_filter_fields": {
+      "article": "Số Điều của BLLĐ (1..220). Dùng cho câu hỏi hỏi về một Điều cụ thể.",
+      "chapter": "Số chương La Mã (I..XVII). Dùng filter theo chủ đề lớn, ví dụ Chương VI = Tiền lương.",
+      "chapter_title": "Tên chương, ví dụ 'TIỀN LƯƠNG'. Hỗ trợ debug và hiển thị."
+    },
+    "notes": "Mỗi trường chỉ ghi giá trị parse được từ nguồn, không tự đoán. Nếu một chunk thuộc nhiều Điều (hiếm), lưu danh sách Điều."
+  },
+
+  "processing_notes": {
+    "known_issues": [
+      "Header lặp mỗi trang: 'CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019 <page>' — strip trong normalize_text.",
+      "Khoảng trắng dư trong từ do PDF kerning: 'ng ười' → 'người', 'tr ường h ợp' → 'trường hợp'. Fix bằng regex gộp space giữa chữ cái tiếng Việt.",
+      "Trang 94 rỗng → log error, không chunk."
+    ],
+    "normalization_rules": [
+      "Unicode NFC.",
+      "Thay nhiều whitespace liên tiếp bằng 1 space.",
+      "Loại header công báo lặp.",
+      "Gộp space xen trong token tiếng Việt."
+    ]
+  },
+
+  "reproducibility": {
+    "corpus_stats_script": "starter/scripts/corpus_stats.py",
+    "probe_script": "starter/scripts/probe_pdf.py",
+    "stats_output": "starter/results/corpus_stats.json"
+  },
+
+  "rejected_sources": [
+    {
+      "file_name": "45.signed.pdf",
+      "status": "removed",
+      "removed_at": "2026-11-14",
+      "original_source": "https://chinhphu.vn/?classid=1&docid=198540&pageid=27160&typegroupid=3",
+      "reason": "PDF scan không có text layer, 100% trang mẫu rỗng khi extract bằng pypdf. Thay bằng bản PDF có text layer từ Cổng TTĐT Chính phủ (mirror vnuf.edu.vn).",
+      "verified_by_script": "starter/scripts/probe_pdf.py (lần chạy đầu khi script trỏ vào file này)"
+    }
+  ]
+}

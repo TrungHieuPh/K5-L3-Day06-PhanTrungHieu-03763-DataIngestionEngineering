@@ -1,0 +1,148 @@
+=== STATS ===
+A fixed_size(500, 50): n=421  min=258  median=500  max=500  total_chars=210075
+B by_article: n=220  min=101  median=722  max=7248  total_chars=187695
+C by_clause(200, 800): n=554  min=19  median=297  max=792  total_chars=187361
+
+B articles found: 220 / 220 expected
+B missing articles: []
+B chapters found: ['I', 'II', 'III', 'IV', 'IX', 'V', 'VI', 'VII', 'VIII', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII']
+
+=== Article 1 — strategy B ===
+  id=BLLD_45_2019_QH14#B#art001  page=1  len=344
+  meta={"strategy": "by_article", "article": 1, "chapter_roman": "I", "chapter_title": "NHỮNG QUY ĐỊNH CHUNG", "page_start": 1, "page_end": 1}
+  text[0..300]='Điều 1. Phạm vi điều chỉnh\nBộ luật Lao động quy định tiêu chuẩn lao động; quyền, nghĩa vụ, trách nhiệm\ncủa người lao động, người sử dụng lao động, tổ chức đại diện người lao động tại\ncơ sở, tổ chức đại diện người sử dụng lao động trong quan hệ lao động và các quan\nhệ khác liên quan trực tiếp đến qua'
+
+=== Article 1 — strategy C ===
+  id=BLLD_45_2019_QH14#C#art001#preamble  page=1  len=344
+  meta={"strategy": "by_clause", "article": 1, "chapter_roman": "I", "chapter_title": "NHỮNG QUY ĐỊNH CHUNG", "clause_nums": []}
+  text[0..300]='Điều 1. Phạm vi điều chỉnh\nBộ luật Lao động quy định tiêu chuẩn lao động; quyền, nghĩa vụ, trách nhiệm\ncủa người lao động, người sử dụng lao động, tổ chức đại diện người lao động tại\ncơ sở, tổ chức đại diện người sử dụng lao động trong quan hệ lao động và các quan\nhệ khác liên quan trực tiếp đến qua'
+
+
+=== Article 35 — strategy B ===
+  id=BLLD_45_2019_QH14#B#art035  page=15  len=1584
+  meta={"strategy": "by_article", "article": 35, "chapter_roman": "III", "chapter_title": "HỢP ĐỒNG LAO ĐỘNG", "page_start": 15, "page_end": 16}
+  text[0..300]='Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người\nlao động\n1. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng\nphải báo trước cho người sử dụng lao động như sau:\na) Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định\nthời hạn;\nb) Ít nhất 30 ngày nếu làm'
+
+=== Article 35 — strategy C ===
+  id=BLLD_45_2019_QH14#C#art035#k1  page=15  len=609
+  meta={"strategy": "by_clause", "article": 35, "chapter_roman": "III", "chapter_title": "HỢP ĐỒNG LAO ĐỘNG", "clause_nums": [1]}
+  text[0..300]='Điều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người\nlao động\n1. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng\nphải báo trước cho người sử dụng lao động như sau:\na) Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định\nthời hạn;\nb) Ít nhất 30 ngày nếu làm'
+
+  id=BLLD_45_2019_QH14#C#art035#k2#p0  page=16  len=782
+  meta={"strategy": "by_clause", "article": 35, "chapter_roman": "III", "chapter_title": "HỢP ĐỒNG LAO ĐỘNG", "clause_nums": [2]}
+  text[0..300]='2. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không\ncần báo trước trong trường hợp sau đây:\na) Không được bố trí theo đúng công việc, địa điểm làm việc hoặc không được\nbảo đảm điều kiện làm việc theo thỏa thuận, trừ trường hợp quy định tại Điều 29\ncủa Bộ luật này;\nb) Không được tr'
+
+  id=BLLD_45_2019_QH14#C#art035#k2#p1  page=16  len=191
+  meta={"strategy": "by_clause", "article": 35, "chapter_roman": "III", "chapter_title": "HỢP ĐỒNG LAO ĐỘNG", "clause_nums": [2]}
+  text[0..300]='các bên có thỏa thuận khác;\ng) Người sử dụng lao động cung cấp thông tin không trung thực theo quy định\ntại khoản 1 Điều 16 của Bộ luật này làm ảnh hưởng đến việc thực hiện hợp đồng\nlao động.'
+
+
+=== Article 92 — strategy B ===
+  id=BLLD_45_2019_QH14#B#art092  page=40  len=533
+  meta={"strategy": "by_article", "article": 92, "chapter_roman": "VI", "chapter_title": "TIỀN LƯƠNG", "page_start": 40, "page_end": 40}
+  text[0..300]='Điều 92. Hội đồng tiền lương quốc gia\n1. Hội đồng tiền lương quốc gia là cơ quan tư vấn cho Chính phủ về mức\nlương tối thiểu và chính sách tiền lương đối với người lao động.\n2. Thủ tướng Chính phủ thành lập Hội đồng tiền lương quốc gia bao gồm các\nthành viên là đại diện của Bộ Lao động - Thương binh'
+
+=== Article 92 — strategy C ===
+  id=BLLD_45_2019_QH14#C#art092#k1-2  page=40  len=428
+  meta={"strategy": "by_clause", "article": 92, "chapter_roman": "VI", "chapter_title": "TIỀN LƯƠNG", "clause_nums": [1, 2]}
+  text[0..300]='Điều 92. Hội đồng tiền lương quốc gia\n1. Hội đồng tiền lương quốc gia là cơ quan tư vấn cho Chính phủ về mức\nlương tối thiểu và chính sách tiền lương đối với người lao động.\n2. Thủ tướng Chính phủ thành lập Hội đồng tiền lương quốc gia bao gồm các\nthành viên là đại diện của Bộ Lao động - Thương binh'
+
+  id=BLLD_45_2019_QH14#C#art092#k3  page=40  len=104
+  meta={"strategy": "by_clause", "article": 92, "chapter_roman": "VI", "chapter_title": "TIỀN LƯƠNG", "clause_nums": [3]}
+  text[0..300]='3. Chính phủ quy định chức năng, nhiệm vụ, cơ cấu tổ chức và hoạt động của\nHội đồng tiền lương quốc gia.'
+
+
+=== Article 125 — strategy B ===
+  id=BLLD_45_2019_QH14#B#art125  page=52  len=1267
+  meta={"strategy": "by_article", "article": 125, "chapter_roman": "VIII", "chapter_title": "KỶ LUẬT LAO ĐỘNG, TRÁCH NHIỆM VẬT CHẤT", "page_start": 52, "page_end": 52}
+  text[0..300]='Điều 125. Áp dụng hình thức xử lý kỷ luật sa thải\nHình thức xử lý kỷ luật sa thải được người sử dụng lao động áp dụng trong\ntrường hợp sau đây:\n1. Người lao động có hành vi trộm cắp, tham ô, đánh bạc, cố ý gây thương\ntích, sử dụng ma túy tại nơi làm việc;\n2. Người lao động có hành vi tiết lộ bí mật '
+
+=== Article 125 — strategy C ===
+  id=BLLD_45_2019_QH14#C#art125#k1  page=52  len=255
+  meta={"strategy": "by_clause", "article": 125, "chapter_roman": "VIII", "chapter_title": "KỶ LUẬT LAO ĐỘNG, TRÁCH NHIỆM VẬT CHẤT", "clause_nums": [1]}
+  text[0..300]='Điều 125. Áp dụng hình thức xử lý kỷ luật sa thải\nHình thức xử lý kỷ luật sa thải được người sử dụng lao động áp dụng trong\ntrường hợp sau đây:\n1. Người lao động có hành vi trộm cắp, tham ô, đánh bạc, cố ý gây thương\ntích, sử dụng ma túy tại nơi làm việc;'
+
+  id=BLLD_45_2019_QH14#C#art125#k2  page=52  len=342
+  meta={"strategy": "by_clause", "article": 125, "chapter_roman": "VIII", "chapter_title": "KỶ LUẬT LAO ĐỘNG, TRÁCH NHIỆM VẬT CHẤT", "clause_nums": [2]}
+  text[0..300]='2. Người lao động có hành vi tiết lộ bí mật kinh doanh, bí mật công nghệ, xâm\nphạm quyền sở hữu trí tuệ của người sử dụng lao động, có hành vi gây thiệt hại\nnghiêm trọng hoặc đe dọa gây thiệt hại đặc biệt nghiêm trọng về tài sản, lợi ích của\nngười sử dụng lao động hoặc quấy rối tình dục tại nơi làm '
+
+  id=BLLD_45_2019_QH14#C#art125#k3  page=52  len=274
+  meta={"strategy": "by_clause", "article": 125, "chapter_roman": "VIII", "chapter_title": "KỶ LUẬT LAO ĐỘNG, TRÁCH NHIỆM VẬT CHẤT", "clause_nums": [3]}
+  text[0..300]='3. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương hoặc cách chức\nmà tái phạm trong thời gian chưa xóa kỷ luật. Tái phạm là trường hợp người lao\nđộng lặp lại hành vi vi phạm đã bị xử lý kỷ luật mà chưa được xóa kỷ luật theo quy\nđịnh tại Điều 126 của Bộ luật này;'
+
+  id=BLLD_45_2019_QH14#C#art125#k4  page=52  len=393
+  meta={"strategy": "by_clause", "article": 125, "chapter_roman": "VIII", "chapter_title": "KỶ LUẬT LAO ĐỘNG, TRÁCH NHIỆM VẬT CHẤT", "clause_nums": [4]}
+  text[0..300]='4. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc\n20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà\nkhông có lý do chính đáng.\nTrường hợp được coi là có lý do chính đáng bao gồm thiên tai, hỏa hoạn, bản\nthân, thân nhân bị ốm có xác nhận của cơ s'
+
+
+=== Article 169 — strategy B ===
+  id=BLLD_45_2019_QH14#B#art169  page=67  len=1326
+  meta={"strategy": "by_article", "article": 169, "chapter_roman": "XII", "chapter_title": "BẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP", "page_start": 67, "page_end": 68}
+  text[0..300]='Điều 169. Tuổi nghỉ hưu\n1. Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội\ntheo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hưu khi đủ\ntuổi nghỉ hưu.\n2. Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường\nđược điều chỉnh theo lộ trình cho đến khi đ'
+
+=== Article 169 — strategy C ===
+  id=BLLD_45_2019_QH14#C#art169#k1-2  page=67  len=657
+  meta={"strategy": "by_clause", "article": 169, "chapter_roman": "XII", "chapter_title": "BẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP", "clause_nums": [1, 2]}
+  text[0..300]='Điều 169. Tuổi nghỉ hưu\n1. Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội\ntheo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hưu khi đủ\ntuổi nghỉ hưu.\n2. Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường\nđược điều chỉnh theo lộ trình cho đến khi đ'
+
+  id=BLLD_45_2019_QH14#C#art169#k3  page=67  len=383
+  meta={"strategy": "by_clause", "article": 169, "chapter_roman": "XII", "chapter_title": "BẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP", "clause_nums": [3]}
+  text[0..300]='3. Người lao động bị suy giảm khả năng lao động; làm nghề, công việc đặc\nbiệt nặng nhọc, độc hại, nguy hiểm; làm nghề, công việc nặng nhọc, độc hại, nguy\nhiểm; làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn có thể nghỉ\nhưu ở tuổi thấp hơn nhưng không quá 05 tuổi so với quy định tại '
+
+  id=BLLD_45_2019_QH14#C#art169#k4  page=68  len=243
+  meta={"strategy": "by_clause", "article": 169, "chapter_roman": "XII", "chapter_title": "BẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP", "clause_nums": [4]}
+  text[0..300]='4. Người lao động có trình độ chuyên môn, kỹ thuật cao và một số trường\nhợp đặc biệt có thể nghỉ hưu ở tuổi cao hơn nhưng không quá 05 tuổi so với quy\nđịnh tại khoản 2 Điều này tại thời điểm nghỉ hưu, trừ trường hợp pháp luật có quy\nđịnh khác.'
+
+  id=BLLD_45_2019_QH14#C#art169#k5  page=68  len=40
+  meta={"strategy": "by_clause", "article": 169, "chapter_roman": "XII", "chapter_title": "BẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP", "clause_nums": [5]}
+  text[0..300]='5. Chính phủ quy định chi tiết Điều này.'
+
+
+=== Article 188 — strategy B ===
+  id=BLLD_45_2019_QH14#B#art188  page=77  len=3197
+  meta={"strategy": "by_article", "article": 188, "chapter_roman": "XIV", "chapter_title": "GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG", "page_start": 77, "page_end": 78}
+  text[0..300]='Điều 188. Trình tự, thủ tục hòa giải tranh chấp lao động cá nhân của hòa\ngiải viên lao động\n1. Tranh chấp lao động cá nhân phải được giải quyết thông qua thủ tục hòa giải\ncủa hòa giải viên lao động trước khi yêu cầu Hội đồng trọng tài lao động hoặc Tòa\nán giải quyết, trừ các tranh chấp lao động sau '
+
+=== Article 188 — strategy C ===
+  id=BLLD_45_2019_QH14#C#art188#k1#p0  page=77  len=744
+  meta={"strategy": "by_clause", "article": 188, "chapter_roman": "XIV", "chapter_title": "GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG", "clause_nums": [1]}
+  text[0..300]='Điều 188. Trình tự, thủ tục hòa giải tranh chấp lao động cá nhân của hòa\ngiải viên lao động\n1. Tranh chấp lao động cá nhân phải được giải quyết thông qua thủ tục hòa giải\ncủa hòa giải viên lao động trước khi yêu cầu Hội đồng trọng tài lao động hoặc Tòa\nán giải quyết, trừ các tranh chấp lao động sau '
+
+  id=BLLD_45_2019_QH14#C#art188#k1#p1  page=77  len=346
+  meta={"strategy": "by_clause", "article": 188, "chapter_roman": "XIV", "chapter_title": "GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG", "clause_nums": [1]}
+  text[0..300]='theo quy định của pháp luật về việc làm, về bảo hiểm tai nạn lao động, bệnh nghề\nnghiệp theo quy định của pháp luật về an toàn, vệ sinh lao động;\nđ) Về bồi thường thiệt hại giữa người lao động với doanh nghiệp, tổ chức đưa\nngười lao động đi làm việc ở nước ngoài theo hợp đồng;\ne) Giữa người lao động'
+
+  id=BLLD_45_2019_QH14#C#art188#k2  page=77  len=238
+  meta={"strategy": "by_clause", "article": 188, "chapter_roman": "XIV", "chapter_title": "GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG", "clause_nums": [2]}
+  text[0..300]='2. Trong thời hạn 05 ngày làm việc kể từ ngày hòa giải viên lao động\nnhận được yêu cầu từ bên yêu cầu giải quyết tranh chấp hoặc từ cơ quan quy\nđịnh tại khoản 3 Điều 181 của Bộ luật này, hòa giải viên lao động phải kết\nthúc việc hòa giải.'
+
+  id=BLLD_45_2019_QH14#C#art188#k3-4#p0  page=77  len=792
+  meta={"strategy": "by_clause", "article": 188, "chapter_roman": "XIV", "chapter_title": "GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG", "clause_nums": [3, 4]}
+  text[0..300]='3. Tại phiên họp hòa giải phải có mặt hai bên tranh chấp. Các bên tranh chấp\ncó thể ủy quyền cho người khác tham gia phiên họp hòa giải.\n4. Hòa giải viên lao động có trách nhiệm hướng dẫn, hỗ trợ các bên thương\nlượng để giải quyết tranh chấp.\nTrường hợp các bên thỏa thuận được, hòa giải viên lao độn'
+
+  id=BLLD_45_2019_QH14#C#art188#k3-4#p1  page=78  len=247
+  meta={"strategy": "by_clause", "article": 188, "chapter_roman": "XIV", "chapter_title": "GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG", "clause_nums": [3, 4]}
+  text[0..300]='chấp đã được triệu tập hợp lệ đến lần thứ hai mà vẫn vắng mặt không có lý do\nchính đáng thì hòa giải viên lao động lập biên bản hòa giải không thành. Biên\nbản hòa giải không thành phải có chữ ký của bên tranh chấp có mặt và hòa giải\nviên lao động.'
+
+  id=BLLD_45_2019_QH14#C#art188#k5-6  page=78  len=328
+  meta={"strategy": "by_clause", "article": 188, "chapter_roman": "XIV", "chapter_title": "GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG", "clause_nums": [5, 6]}
+  text[0..300]='5. Bản sao biên bản hòa giải thành hoặc hòa giải không thành phải được gửi\ncho các bên tranh chấp trong thời hạn 01 ngày làm việc kể từ ngày lập biên bản.\n6. Trường hợp một trong các bên không thực hiện các thỏa thuận trong biên\nbản hòa giải thành thì bên kia có quyền yêu cầu Hội đồng trọng tài lao '
+
+  id=BLLD_45_2019_QH14#C#art188#k7  page=78  len=496
+  meta={"strategy": "by_clause", "article": 188, "chapter_roman": "XIV", "chapter_title": "GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG", "clause_nums": [7]}
+  text[0..300]='7. Trường hợp không bắt buộc phải qua thủ tục hòa giải quy định tại khoản 1\nĐiều này hoặc trường hợp hết thời hạn hòa giải quy định tại khoản 2 Điều này mà\nhòa giải viên lao động không tiến hành hòa giải hoặc trường hợp hòa giải không\nthành theo quy định tại khoản 4 Điều này thì các bên tranh chấp c'
+
+
+=== Article 220 — strategy B ===
+  id=BLLD_45_2019_QH14#B#art220  page=92  len=1052
+  meta={"strategy": "by_article", "article": 220, "chapter_roman": "XVII", "chapter_title": "ĐIỀU KHOẢN THI HÀNH", "page_start": 92, "page_end": 93}
+  text[0..300]='Điều 220. Hiệu lực thi hành\n1. Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021.\nBộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật\nnày có hiệu lực.\n2. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước\nlao động tập thể, các thỏa thuận hợp ph'
+
+=== Article 220 — strategy C ===
+  id=BLLD_45_2019_QH14#C#art220#k1-2  page=92  len=575
+  meta={"strategy": "by_clause", "article": 220, "chapter_roman": "XVII", "chapter_title": "ĐIỀU KHOẢN THI HÀNH", "clause_nums": [1, 2]}
+  text[0..300]='Điều 220. Hiệu lực thi hành\n1. Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021.\nBộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật\nnày có hiệu lực.\n2. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước\nlao động tập thể, các thỏa thuận hợp ph'
+
+  id=BLLD_45_2019_QH14#C#art220#k3  page=93  len=476
+  meta={"strategy": "by_clause", "article": 220, "chapter_roman": "XVII", "chapter_title": "ĐIỀU KHOẢN THI HÀNH", "clause_nums": [3]}
+  text[0..300]='3. Chế độ lao động đối với cán bộ, công chức, viên chức, người thuộc lực\nlượng Quân đội nhân dân, Công an nhân dân, tổ chức xã hội, xã viên hợp tác xã,\nngười làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định\nnhưng tùy từng đối tượng mà được áp dụng một số quy định trong Bộ lu'

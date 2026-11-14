@@ -1,0 +1,434 @@
+{
+  "rule": "are fixed in code and do not look at any score:\n  * coherence: 10 evenly spaced content pages (sorted page IDs), position =\n    middle character of the page. If no chunk of some strategy covers that\n    character (e.g. a chapter heading between articles), move forward to the\n    first character covered by all three strategies.\n  * metadata / grounding: every test question, every top-3 chunk.",
+  "positions": [
+    {
+      "page": 1,
+      "offset": 695,
+      "shifted_chars": 0,
+      "context": " tập nghề và người làm việc không có quan hệ lao động. 2. Người sử dụng lao động"
+    },
+    {
+      "page": 11,
+      "offset": 20707,
+      "shifted_chars": 0,
+      "context": "p luật có quy định khác. Điều 24. Thử việc 1. Người sử dụng lao động và người la"
+    },
+    {
+      "page": 21,
+      "offset": 41361,
+      "shifted_chars": 0,
+      "context": " năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện"
+    },
+    {
+      "page": 32,
+      "offset": 63530,
+      "shifted_chars": 0,
+      "context": " trở hoặc can thiệp vào quá trình tổ chức đại diện người lao động thảo luận, lấy"
+    },
+    {
+      "page": 42,
+      "offset": 85460,
+      "shifted_chars": 0,
+      "context": "iết Điều này. Điều 99. Tiền lương ngừng việc Trường hợp phải ngừng việc, người l"
+    },
+    {
+      "page": 52,
+      "offset": 105246,
+      "shifted_chars": 0,
+      "context": "hời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu t"
+    },
+    {
+      "page": 62,
+      "offset": 125357,
+      "shifted_chars": 0,
+      "context": "ượt quá thời hạn của Giấy phép lao động. Khi sử dụng người lao động nước ngoài l"
+    },
+    {
+      "page": 73,
+      "offset": 147864,
+      "shifted_chars": 0,
+      "context": "ộng tập thể, nội quy lao động, quy chế và thỏa thuận hợp pháp khác; b) Có sự khá"
+    },
+    {
+      "page": 83,
+      "offset": 168664,
+      "shifted_chars": 0,
+      "context": "là bên tranh chấp không thực hiện quyết định giải quyết tranh chấp của Ban trọng"
+    },
+    {
+      "page": 93,
+      "offset": 188780,
+      "shifted_chars": 0,
+      "context": "ợp và để áp dụng quy định của Bộ luật này. 3. Chế độ lao động đối với cán bộ, cô"
+    }
+  ],
+  "items": [
+    {
+      "pos": "P01",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0001",
+      "n_covering_chunks": 1,
+      "article": 1,
+      "articles": [
+        1,
+        2,
+        3
+      ],
+      "chars": 499,
+      "text": "người sử dụng lao động trong quan hệ lao động và các quan\nhệ khác liên quan trực tiếp đến quan hệ lao động; quản lý nhà nước về lao động.\nĐiều 2. Đối tượng áp dụng\n1. Người lao động, người học nghề, người tập nghề và người làm việc không\ncó quan hệ lao động.\n2. Người sử dụng lao động.\n3. Người lao động nước ngoài làm việc tại Việt Nam.\n4. Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.\nĐiều 3. Giải thích từ ngữ\nTrong Bộ luật này, các từ ngữ dưới đây được hiểu như sau"
+    },
+    {
+      "pos": "P01",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art002",
+      "n_covering_chunks": 1,
+      "article": 2,
+      "articles": [
+        2
+      ],
+      "chars": 278,
+      "text": "Điều 2. Đối tượng áp dụng\n1. Người lao động, người học nghề, người tập nghề và người làm việc không\ncó quan hệ lao động.\n2. Người sử dụng lao động.\n3. Người lao động nước ngoài làm việc tại Việt Nam.\n4. Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động."
+    },
+    {
+      "pos": "P01",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art002#k1-2-3-4",
+      "n_covering_chunks": 1,
+      "article": 2,
+      "articles": [
+        2
+      ],
+      "chars": 278,
+      "text": "Điều 2. Đối tượng áp dụng\n1. Người lao động, người học nghề, người tập nghề và người làm việc không\ncó quan hệ lao động.\n2. Người sử dụng lao động.\n3. Người lao động nước ngoài làm việc tại Việt Nam.\n4. Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động."
+    },
+    {
+      "pos": "P02",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0045",
+      "n_covering_chunks": 2,
+      "article": 22,
+      "articles": [
+        22,
+        23,
+        24
+      ],
+      "chars": 500,
+      "text": "à dẫn đến cách hiểu khác với hợp đồng lao động thì thực\nhiện theo nội dung của hợp đồng lao động.\nTrường hợp phụ lục hợp đồng lao động sửa đổi, bổ sung một số điều, khoản\ncủa hợp đồng lao động thì phải ghi rõ nội dung điều, khoản sửa đổi, bổ sung và\nthời điểm có hiệu lực.\nĐiều 23. Hiệu lực của hợp đồng lao động\nHợp đồng lao động có hiệu lực kể từ ngày hai bên giao kết, trừ trường hợp hai\nbên có thỏa thuận hoặc pháp luật có quy định khác.\nĐiều 24. Thử việc\n1. Người sử dụng lao động và người lao đ"
+    },
+    {
+      "pos": "P02",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art024",
+      "n_covering_chunks": 1,
+      "article": 24,
+      "articles": [
+        24
+      ],
+      "chars": 445,
+      "text": "Điều 24. Thử việc\n1. Người sử dụng lao động và người lao động có thể thỏa thuận nội dung thử\nviệc ghi trong hợp đồng lao động hoặc thỏa thuận về thử việc bằng việc giao kết\nhợp đồng thử việc.\n2. Nội dung chủ yếu của hợp đồng thử việc gồm thời gian thử việc và nội dung\nquy định tại các điểm a, b, c, đ, g và h khoản 1 Điều 21 của Bộ luật này.\n3. Không áp dụng thử việc đối với người lao động giao kết hợp đồng lao động\ncó thời hạn dưới 01 tháng."
+    },
+    {
+      "pos": "P02",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art024#k1-2",
+      "n_covering_chunks": 1,
+      "article": 24,
+      "articles": [
+        24
+      ],
+      "chars": 342,
+      "text": "Điều 24. Thử việc\n1. Người sử dụng lao động và người lao động có thể thỏa thuận nội dung thử\nviệc ghi trong hợp đồng lao động hoặc thỏa thuận về thử việc bằng việc giao kết\nhợp đồng thử việc.\n2. Nội dung chủ yếu của hợp đồng thử việc gồm thời gian thử việc và nội dung\nquy định tại các điểm a, b, c, đ, g và h khoản 1 Điều 21 của Bộ luật này."
+    },
+    {
+      "pos": "P03",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0091",
+      "n_covering_chunks": 1,
+      "article": 45,
+      "articles": [
+        45,
+        46
+      ],
+      "chars": 499,
+      "text": "34 của Bộ luật\nnày thì thời điểm chấm dứt hợp đồng lao động tính từ ngày ra thông báo.\nĐiều 46. Trợ cấp thôi việc\n1. Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9\nvà 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ\ncấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12\ntháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường\nhợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về b"
+    },
+    {
+      "pos": "P03",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art046",
+      "n_covering_chunks": 1,
+      "article": 46,
+      "articles": [
+        46
+      ],
+      "chars": 1025,
+      "text": "Điều 46. Trợ cấp thôi việc\n1. Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9\nvà 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ\ncấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12\ntháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường\nhợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội\nvà trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.\n2. Thời gian làm việc để tính trợ cấp thôi việc là tổng thời gian người lao động\nđã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao động đã\ntham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp\nvà thời gian làm việc đã được người sử dụng lao động chi trả trợ cấp thôi việc, trợ\ncấp mất việc làm.\n3. Tiền lương để tính trợ cấp thôi việc là tiền lương bình quân của 06 tháng\nliền kề theo hợp đồng lao động trước khi người lao động thôi việc.\n4. Chính phủ quy định chi tiết Điều này."
+    },
+    {
+      "pos": "P03",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art046#k1",
+      "n_covering_chunks": 1,
+      "article": 46,
+      "articles": [
+        46
+      ],
+      "chars": 493,
+      "text": "Điều 46. Trợ cấp thôi việc\n1. Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9\nvà 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ\ncấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12\ntháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường\nhợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội\nvà trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này."
+    },
+    {
+      "pos": "P04",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0141",
+      "n_covering_chunks": 1,
+      "article": 70,
+      "articles": [
+        70
+      ],
+      "chars": 500,
+      "text": "ng lao động không được gây khó khăn, cản trở hoặc can thiệp vào\nquá trình tổ chức đại diện người lao động thảo luận, lấy ý kiến người lao động.\n5. Việc thương lượng tập thể phải được lập biên bản, trong đó ghi rõ nội dung\nđã được các bên thống nhất, nội dung còn ý kiến khác nhau. Biên bản thương\nlượng tập thể phải có chữ ký của đại diện các bên thương lượng và của người ghi\nbiên bản. Tổ chức đại diện người lao động tại cơ sở công bố rộng rãi, công khai\nbiên bản thương lượng tập thể đến toàn bộ n"
+    },
+    {
+      "pos": "P04",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art070",
+      "n_covering_chunks": 1,
+      "article": 70,
+      "articles": [
+        70
+      ],
+      "chars": 2629,
+      "text": "Điều 70. Quy trình thương lượng tập thể tại doanh nghiệp\n1. Khi có yêu cầu thương lượng tập thể của tổ chức đại diện người lao động tại\ncơ sở có quyền yêu cầu thương lượng tập thể theo quy định tại Điều 68 của Bộ luật\nnày hoặc yêu cầu của người sử dụng lao động thì bên nhận được yêu cầu không\nđược từ chối việc thương lượng.\nTrong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu và nội dung\nthương lượng, các bên thỏa thuận về địa điểm, thời gian bắt đầu thương lượng.\nNgười sử dụng lao động có trách nhiệm bố trí thời gian, địa điểm và các điều\nkiện cần thiết để tổ chức các phiên họp thương lượng tập thể.\nThời gian bắt đầu thương lượng không được quá 30 ngày kể từ ngày nhận\nđược yêu cầu thương lượng tập thể.\n2. Thời gian thương lượng tập thể không được quá 90 ngày kể từ ngày bắt đầu\nthương lượng, trừ trường hợp các bên có thỏa thuận khác.\nThời gian tham gia các phiên họp thương lượng tập thể của đại diện bên người\nlao động được tính là thời gian làm việc có hưởng lương. Trường hợp người lao\nđộng là thành viên của tổ chức đại diện người lao động tham gia các phiên họp\nthương lượng tập thể thì thời gian tham gia các phiên họp không tính vào thời gian\nquy định tại khoản 2 Điều 176 của Bộ luật này.\n3. Trong quá trình thương lượng tập thể, nếu có yêu cầu của bên đại diện người\nlao động thì trong thời hạn 10 ngày kể từ ngày nhận được yêu cầu, bên người sử dụng\nlao động có trách nhiệm cung cấp thông tin về tình hình hoạt động sản xuất, kinh\ndoanh và nội dung khác liên quan trực tiếp đến nội dung thương lượng trong phạm vi\ndoanh nghiệp nhằm tạo điều kiện thuận lợi cho thương lượng tập thể, trừ thông tin về\nbí mật kinh doanh, bí mật công nghệ của người sử dụng lao động.\n4. Tổ chức đại diện người lao động tại cơ sở có quyền tổ chức thảo luận, lấy ý\nkiến người lao động về nội dung, cách thức tiến hành và kết quả của quá trình\nthương lượng tập thể.\nTổ chức đại diện người lao động tại cơ sở quyết định về thời gian, địa điểm và\ncách thức tiến hành thảo luận, lấy ý kiến người lao động nhưng không được làm\nảnh hưởng đến hoạt động sản xuất, kinh doanh bình thường của doanh nghiệp.\nNgười sử dụng lao động không được gây khó khăn, cản trở hoặc can thiệp vào\nquá trình tổ chức đại diện người lao động thảo luận, lấy ý kiến người lao động.\n5. Việc thương lượng tập thể phải được lập biên bản, trong đó ghi rõ nội dung\nđã được các bên thống nhất, nội dung còn ý kiến khác nhau. Biên bản thương\nlượng tập thể phải có chữ ký của đại diện các bên thương lượng và của người ghi\nbiên bản. Tổ chức đại diện người lao động tại cơ sở công bố rộng rãi, công khai\nbiên bản thương lượng tập thể đến toàn bộ người lao động."
+    },
+    {
+      "pos": "P04",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art070#k4",
+      "n_covering_chunks": 1,
+      "article": 70,
+      "articles": [
+        70
+      ],
+      "chars": 565,
+      "text": "4. Tổ chức đại diện người lao động tại cơ sở có quyền tổ chức thảo luận, lấy ý\nkiến người lao động về nội dung, cách thức tiến hành và kết quả của quá trình\nthương lượng tập thể.\nTổ chức đại diện người lao động tại cơ sở quyết định về thời gian, địa điểm và\ncách thức tiến hành thảo luận, lấy ý kiến người lao động nhưng không được làm\nảnh hưởng đến hoạt động sản xuất, kinh doanh bình thường của doanh nghiệp.\nNgười sử dụng lao động không được gây khó khăn, cản trở hoặc can thiệp vào\nquá trình tổ chức đại diện người lao động thảo luận, lấy ý kiến người lao động."
+    },
+    {
+      "pos": "P05",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0189",
+      "n_covering_chunks": 1,
+      "article": 98,
+      "articles": [
+        98,
+        99
+      ],
+      "chars": 499,
+      "text": "ệc bình thường.\n3. Người lao động làm thêm giờ vào ban đêm thì ngoài việc trả lương theo quy\nđịnh tại khoản 1 và khoản 2 Điều này, người lao động còn được trả thêm 20% tiền\nlương tính theo đơn giá tiền lương hoặc tiền lương theo công việc làm vào ban\nngày của ngày làm việc bình thường hoặc của ngày nghỉ hằng tuần hoặc của ngày\nnghỉ lễ, tết.\n4. Chính phủ quy định chi tiết Điều này.\nĐiều 99. Tiền lương ngừng việc\nTrường hợp phải ngừng việc, người lao động được trả lương như sau:\n1. Nếu do lỗi của"
+    },
+    {
+      "pos": "P05",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art099",
+      "n_covering_chunks": 1,
+      "article": 99,
+      "articles": [
+        99
+      ],
+      "chars": 1048,
+      "text": "Điều 99. Tiền lương ngừng việc\nTrường hợp phải ngừng việc, người lao động được trả lương như sau:\n1. Nếu do lỗi của người sử dụng lao động thì người lao động được trả đủ tiền\nlương theo hợp đồng lao động;\n2. Nếu do lỗi của người lao động thì người đó không được trả lương; những\nngười lao động khác trong cùng đơn vị phải ngừng việc thì được trả lương theo\nmức do hai bên thỏa thuận nhưng không được thấp hơn mức lương tối thiểu;\n3. Nếu vì sự cố về điện, nước mà không do lỗi của người sử dụng lao động\nhoặc do thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, địch họa, di dời địa điểm hoạt\nđộng theo yêu cầu của cơ quan nhà nước có thẩm quyền hoặc vì lý do kinh tế thì\nhai bên thỏa thuận về tiền lương ngừng việc như sau:\na) Trường hợp ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng\nviệc được thỏa thuận không thấp hơn mức lương tối thiểu;\nb) Trường hợp phải ngừng việc trên 14 ngày làm việc thì tiền lương ngừng\nviệc do hai bên thỏa thuận nhưng phải bảo đảm tiền lương ngừng việc trong 14\nngày đầu tiên không thấp hơn mức lương tối thiểu."
+    },
+    {
+      "pos": "P05",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art099#k1",
+      "n_covering_chunks": 1,
+      "article": 99,
+      "articles": [
+        99
+      ],
+      "chars": 204,
+      "text": "Điều 99. Tiền lương ngừng việc\nTrường hợp phải ngừng việc, người lao động được trả lương như sau:\n1. Nếu do lỗi của người sử dụng lao động thì người lao động được trả đủ tiền\nlương theo hợp đồng lao động;"
+    },
+    {
+      "pos": "P06",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0233",
+      "n_covering_chunks": 1,
+      "article": 125,
+      "articles": [
+        125
+      ],
+      "chars": 500,
+      "text": "h\ntrong nội quy lao động;\n3. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương hoặc cách chức\nmà tái phạm trong thời gian chưa xóa kỷ luật. Tái phạm là trường hợp người lao\nđộng lặp lại hành vi vi phạm đã bị xử lý kỷ luật mà chưa được xóa kỷ luật theo quy\nđịnh tại Điều 126 của Bộ luật này;\n4. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc\n20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà\nkhông có lý do chính đáng.\nTrường hợp được c"
+    },
+    {
+      "pos": "P06",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art125",
+      "n_covering_chunks": 1,
+      "article": 125,
+      "articles": [
+        125
+      ],
+      "chars": 1267,
+      "text": "Điều 125. Áp dụng hình thức xử lý kỷ luật sa thải\nHình thức xử lý kỷ luật sa thải được người sử dụng lao động áp dụng trong\ntrường hợp sau đây:\n1. Người lao động có hành vi trộm cắp, tham ô, đánh bạc, cố ý gây thương\ntích, sử dụng ma túy tại nơi làm việc;\n2. Người lao động có hành vi tiết lộ bí mật kinh doanh, bí mật công nghệ, xâm\nphạm quyền sở hữu trí tuệ của người sử dụng lao động, có hành vi gây thiệt hại\nnghiêm trọng hoặc đe dọa gây thiệt hại đặc biệt nghiêm trọng về tài sản, lợi ích của\nngười sử dụng lao động hoặc quấy rối tình dục tại nơi làm việc được quy định\ntrong nội quy lao động;\n3. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương hoặc cách chức\nmà tái phạm trong thời gian chưa xóa kỷ luật. Tái phạm là trường hợp người lao\nđộng lặp lại hành vi vi phạm đã bị xử lý kỷ luật mà chưa được xóa kỷ luật theo quy\nđịnh tại Điều 126 của Bộ luật này;\n4. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc\n20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà\nkhông có lý do chính đáng.\nTrường hợp được coi là có lý do chính đáng bao gồm thiên tai, hỏa hoạn, bản\nthân, thân nhân bị ốm có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền\nvà trường hợp khác được quy định trong nội quy lao động."
+    },
+    {
+      "pos": "P06",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art125#k4",
+      "n_covering_chunks": 1,
+      "article": 125,
+      "articles": [
+        125
+      ],
+      "chars": 393,
+      "text": "4. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc\n20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà\nkhông có lý do chính đáng.\nTrường hợp được coi là có lý do chính đáng bao gồm thiên tai, hỏa hoạn, bản\nthân, thân nhân bị ốm có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền\nvà trường hợp khác được quy định trong nội quy lao động."
+    },
+    {
+      "pos": "P07",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0278",
+      "n_covering_chunks": 1,
+      "article": 151,
+      "articles": [
+        151
+      ],
+      "chars": 500,
+      "text": "lao động do cơ quan nhà nước có thẩm quyền của Việt Nam\ncấp, trừ trường hợp quy định tại Điều 154 của Bộ luật này.\n2. Thời hạn của hợp đồng lao động đối với người lao động nước ngoài làm\nviệc tại Việt Nam không được vượt quá thời hạn của Giấy phép lao động. Khi sử\ndụng người lao động nước ngoài làm việc tại Việt Nam, hai bên có thể thỏa thuận\ngiao kết nhiều lần hợp đồng lao động xác định thời hạn.\n3. Người lao động nước ngoài làm việc tại Việt Nam phải tuân theo pháp\nluật lao động Việt Nam và đư"
+    },
+    {
+      "pos": "P07",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art151",
+      "n_covering_chunks": 1,
+      "article": 151,
+      "articles": [
+        151
+      ],
+      "chars": 1237,
+      "text": "Điều 151. Điều kiện người lao động nước ngoài làm việc tại Việt Nam\n1. Người lao động nước ngoài làm việc tại Việt Nam là người có quốc tịch\nnước ngoài và phải đáp ứng các điều kiện sau đây:\na) Đủ 18 tuổi trở lên và có năng lực hành vi dân sự đầy đủ;\nb) Có trình độ chuyên môn, kỹ thuật, tay nghề, kinh nghiệm làm việc; có đủ\nsức khỏe theo quy định của Bộ trưởng Bộ Y tế;\nc) Không phải là người đang trong thời gian chấp hành hình phạt hoặc chưa\nđược xóa án tích hoặc đang trong thời gian bị truy cứu trách nhiệm hình sự theo\nquy định của pháp luật nước ngoài hoặc pháp luật Việt Nam;\nd) Có giấy phép lao động do cơ quan nhà nước có thẩm quyền của Việt Nam\ncấp, trừ trường hợp quy định tại Điều 154 của Bộ luật này.\n2. Thời hạn của hợp đồng lao động đối với người lao động nước ngoài làm\nviệc tại Việt Nam không được vượt quá thời hạn của Giấy phép lao động. Khi sử\ndụng người lao động nước ngoài làm việc tại Việt Nam, hai bên có thể thỏa thuận\ngiao kết nhiều lần hợp đồng lao động xác định thời hạn.\n3. Người lao động nước ngoài làm việc tại Việt Nam phải tuân theo pháp\nluật lao động Việt Nam và được pháp luật Việt Nam bảo vệ, trừ trường hợp điều\nước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy\nđịnh khác."
+    },
+    {
+      "pos": "P07",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art151#k2",
+      "n_covering_chunks": 1,
+      "article": 151,
+      "articles": [
+        151
+      ],
+      "chars": 285,
+      "text": "2. Thời hạn của hợp đồng lao động đối với người lao động nước ngoài làm\nviệc tại Việt Nam không được vượt quá thời hạn của Giấy phép lao động. Khi sử\ndụng người lao động nước ngoài làm việc tại Việt Nam, hai bên có thể thỏa thuận\ngiao kết nhiều lần hợp đồng lao động xác định thời hạn."
+    },
+    {
+      "pos": "P08",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0328",
+      "n_covering_chunks": 1,
+      "article": 179,
+      "articles": [
+        179
+      ],
+      "chars": 500,
+      "text": "tổ\nchức đại diện người lao động với người sử dụng lao động hoặc một hay nhiều tổ\nchức của người sử dụng lao động phát sinh trong trường hợp sau đây:\na) Có sự khác nhau trong việc hiểu và thực hiện quy định của thỏa ước lao\nđộng tập thể, nội quy lao động, quy chế và thỏa thuận hợp pháp khác;\nb) Có sự khác nhau trong việc hiểu và thực hiện quy định của pháp luật về\nlao động;\nc) Khi người sử dụng lao động có hành vi phân biệt đối xử đối với người lao\nđộng, thành viên ban lãnh đạo của tổ chức đại di"
+    },
+    {
+      "pos": "P08",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art179",
+      "n_covering_chunks": 1,
+      "article": 179,
+      "articles": [
+        179
+      ],
+      "chars": 1806,
+      "text": "Điều 179. Tranh chấp lao động\n1. Tranh chấp lao động là tranh chấp về quyền và nghĩa vụ, lợi ích phát sinh\ngiữa các bên trong quá trình xác lập, thực hiện hoặc chấm dứt quan hệ lao động;\ntranh chấp giữa các tổ chức đại diện người lao động với nhau; tranh chấp phát sinh\ntừ quan hệ có liên quan trực tiếp đến quan hệ lao động. Các loại tranh chấp lao\nđộng bao gồm:\na) Tranh chấp lao động cá nhân giữa người lao động với người sử dụng lao\nđộng; giữa người lao động với doanh nghiệp, tổ chức đưa người lao động đi làm\nviệc ở nước ngoài theo hợp đồng; giữa người lao động thuê lại với người sử dụng\nlao động thuê lại;\nb) Tranh chấp lao động tập thể về quyền hoặc về lợi ích giữa một hay nhiều tổ\nchức đại diện người lao động với người sử dụng lao động hoặc một hay nhiều tổ\nchức của người sử dụng lao động.\n2. Tranh chấp lao động tập thể về quyền là tranh chấp giữa một hay nhiều tổ\nchức đại diện người lao động với người sử dụng lao động hoặc một hay nhiều tổ\nchức của người sử dụng lao động phát sinh trong trường hợp sau đây:\na) Có sự khác nhau trong việc hiểu và thực hiện quy định của thỏa ước lao\nđộng tập thể, nội quy lao động, quy chế và thỏa thuận hợp pháp khác;\nb) Có sự khác nhau trong việc hiểu và thực hiện quy định của pháp luật về\nlao động;\nc) Khi người sử dụng lao động có hành vi phân biệt đối xử đối với người lao\nđộng, thành viên ban lãnh đạo của tổ chức đại diện người lao động vì lý do thành\nlập, gia nhập, hoạt động trong tổ chức đại diện người lao động; can thiệp, thao túng\ntổ chức đại diện người lao động; vi phạm nghĩa vụ về thương lượng thiện chí.\n3. Tranh chấp lao động tập thể về lợi ích bao gồm:\na) Tranh chấp lao động phát sinh trong quá trình thương lượng tập thể;\nb) Khi một bên từ chối thương lượng hoặc không tiến hành thương lượng trong\nthời hạn theo quy định của pháp luật."
+    },
+    {
+      "pos": "P08",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art179#k2",
+      "n_covering_chunks": 1,
+      "article": 179,
+      "articles": [
+        179
+      ],
+      "chars": 767,
+      "text": "2. Tranh chấp lao động tập thể về quyền là tranh chấp giữa một hay nhiều tổ\nchức đại diện người lao động với người sử dụng lao động hoặc một hay nhiều tổ\nchức của người sử dụng lao động phát sinh trong trường hợp sau đây:\na) Có sự khác nhau trong việc hiểu và thực hiện quy định của thỏa ước lao\nđộng tập thể, nội quy lao động, quy chế và thỏa thuận hợp pháp khác;\nb) Có sự khác nhau trong việc hiểu và thực hiện quy định của pháp luật về\nlao động;\nc) Khi người sử dụng lao động có hành vi phân biệt đối xử đối với người lao\nđộng, thành viên ban lãnh đạo của tổ chức đại diện người lao động vì lý do thành\nlập, gia nhập, hoạt động trong tổ chức đại diện người lao động; can thiệp, thao túng\ntổ chức đại diện người lao động; vi phạm nghĩa vụ về thương lượng thiện chí."
+    },
+    {
+      "pos": "P09",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0374",
+      "n_covering_chunks": 1,
+      "article": 199,
+      "articles": [
+        199,
+        200
+      ],
+      "chars": 499,
+      "text": "đình công trong trường hợp sau đây:\n1. Hòa giải không thành hoặc hết thời hạn hòa giải quy định tại khoản 2 Điều 188\ncủa Bộ luật này mà hòa giải viên lao động không tiến hành hòa giải;\n2. Ban trọng tài lao động không được thành lập hoặc thành lập nhưng không ra\nquyết định giải quyết tranh chấp hoặc người sử dụng lao động là bên tranh chấp\nkhông thực hiện quyết định giải quyết tranh chấp của Ban trọng tài lao động.\nĐiều 200. Trình tự đình công\n1. Lấy ý kiến về đình công theo quy định tại Điều 20"
+    },
+    {
+      "pos": "P09",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art199",
+      "n_covering_chunks": 1,
+      "article": 199,
+      "articles": [
+        199
+      ],
+      "chars": 634,
+      "text": "Điều 199. Trường hợp người lao động có quyền đình công\nTổ chức đại diện người lao động là bên tranh chấp lao động tập thể về lợi ích\ncó quyền tiến hành thủ tục quy định tại các điều 200, 201 và 202 của Bộ luật này\nđể đình công trong trường hợp sau đây:\n1. Hòa giải không thành hoặc hết thời hạn hòa giải quy định tại khoản 2 Điều 188\ncủa Bộ luật này mà hòa giải viên lao động không tiến hành hòa giải;\n2. Ban trọng tài lao động không được thành lập hoặc thành lập nhưng không ra\nquyết định giải quyết tranh chấp hoặc người sử dụng lao động là bên tranh chấp\nkhông thực hiện quyết định giải quyết tranh chấp của Ban trọng tài lao động."
+    },
+    {
+      "pos": "P09",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art199#k1-2",
+      "n_covering_chunks": 1,
+      "article": 199,
+      "articles": [
+        199
+      ],
+      "chars": 381,
+      "text": "1. Hòa giải không thành hoặc hết thời hạn hòa giải quy định tại khoản 2 Điều 188\ncủa Bộ luật này mà hòa giải viên lao động không tiến hành hòa giải;\n2. Ban trọng tài lao động không được thành lập hoặc thành lập nhưng không ra\nquyết định giải quyết tranh chấp hoặc người sử dụng lao động là bên tranh chấp\nkhông thực hiện quyết định giải quyết tranh chấp của Ban trọng tài lao động."
+    },
+    {
+      "pos": "P10",
+      "strategy": "A",
+      "chunk_id": "BLLD_45_2019_QH14#A#p0419",
+      "n_covering_chunks": 1,
+      "article": 220,
+      "articles": [
+        220
+      ],
+      "chars": 500,
+      "text": "bảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định\ncủa Bộ luật này được tiếp tục thực hiện, trừ trường hợp các bên có thỏa thuận về\nviệc sửa đổi, bổ sung để phù hợp và để áp dụng quy định của Bộ luật này.\n3. Chế độ lao động đối với cán bộ, công chức, viên chức, người thuộc lực\nlượng Quân đội nhân dân, Công an nhân dân, tổ chức xã hội, xã viên hợp tác xã,\nngười làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định\nnhưng tùy từng đối tượng mà được áp"
+    },
+    {
+      "pos": "P10",
+      "strategy": "B",
+      "chunk_id": "BLLD_45_2019_QH14#B#art220",
+      "n_covering_chunks": 1,
+      "article": 220,
+      "articles": [
+        220
+      ],
+      "chars": 1052,
+      "text": "Điều 220. Hiệu lực thi hành\n1. Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021.\nBộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật\nnày có hiệu lực.\n2. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước\nlao động tập thể, các thỏa thuận hợp pháp đã giao kết có nội dung không trái hoặc\nbảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định\ncủa Bộ luật này được tiếp tục thực hiện, trừ trường hợp các bên có thỏa thuận về\nviệc sửa đổi, bổ sung để phù hợp và để áp dụng quy định của Bộ luật này.\n3. Chế độ lao động đối với cán bộ, công chức, viên chức, người thuộc lực\nlượng Quân đội nhân dân, Công an nhân dân, tổ chức xã hội, xã viên hợp tác xã,\nngười làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định\nnhưng tùy từng đối tượng mà được áp dụng một số quy định trong Bộ luật này.\n\nBộ luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV,\nkỳ họp thứ 8 thông qua ngày 20 tháng 11 năm 2019./.\n\nCHỦ TỊCH QUỐC HỘI\n\nNguyễn Thị Kim Ngân"
+    },
+    {
+      "pos": "P10",
+      "strategy": "C",
+      "chunk_id": "BLLD_45_2019_QH14#C#art220#k1-2",
+      "n_covering_chunks": 1,
+      "article": 220,
+      "articles": [
+        220
+      ],
+      "chars": 575,
+      "text": "Điều 220. Hiệu lực thi hành\n1. Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021.\nBộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật\nnày có hiệu lực.\n2. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước\nlao động tập thể, các thỏa thuận hợp pháp đã giao kết có nội dung không trái hoặc\nbảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định\ncủa Bộ luật này được tiếp tục thực hiện, trừ trường hợp các bên có thỏa thuận về\nviệc sửa đổi, bổ sung để phù hợp và để áp dụng quy định của Bộ luật này."
+    }
+  ]
+}

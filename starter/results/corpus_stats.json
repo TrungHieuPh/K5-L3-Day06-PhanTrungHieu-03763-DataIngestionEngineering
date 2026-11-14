@@ -1,0 +1,35 @@
+{
+  "file_name": "bo_luat_lao_dong_45_2019_QH14.pdf",
+  "size_bytes": 1352965,
+  "sha256": "3c865f3d92ba23604e316360b902297ddbc0d1c394d3c08a466029a9d43b5b6c",
+  "physical_pages": 94,
+  "content_pages_count": 93,
+  "empty_pages": [
+    94
+  ],
+  "total_characters_stripped": 200577,
+  "detected_articles_count": 221,
+  "detected_articles_min_max": [
+    1,
+    328
+  ],
+  "detected_chapters": [
+    "I",
+    "X",
+    "V",
+    "II",
+    "IX",
+    "XI",
+    "VI",
+    "XV",
+    "IV",
+    "III",
+    "XII",
+    "XIV",
+    "VII",
+    "XVI",
+    "VIII",
+    "XVII",
+    "XIII"
+  ]
+}

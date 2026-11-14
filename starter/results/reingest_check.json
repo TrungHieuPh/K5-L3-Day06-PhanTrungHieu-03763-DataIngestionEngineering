@@ -1,0 +1,44 @@
+{
+  "mechanism": "upsert() runs DELETE FROM chunks WHERE strategy=? AND document_id=? and then INSERTs the new chunks in ONE transaction; PRIMARY KEY (strategy, chunk_id) rejects duplicates. Re-running is idempotent and a changed document fully replaces its old chunks.",
+  "steps": [
+    {
+      "step": "first ingest",
+      "expected": 220,
+      "rows": 220,
+      "distinct_chunk_ids": 220
+    },
+    {
+      "step": "re-ingest same version",
+      "expected": 220,
+      "rows": 220,
+      "distinct_chunk_ids": 220
+    },
+    {
+      "step": "ingest changed version (100 chunks)",
+      "expected": 100,
+      "rows": 100,
+      "distinct_chunk_ids": 100
+    },
+    {
+      "step": "cleanup",
+      "expected": 0,
+      "rows": 0,
+      "distinct_chunk_ids": 0
+    }
+  ],
+  "passed": true,
+  "real_index_counts": {
+    "A": {
+      "rows": 421,
+      "distinct_chunk_ids": 421
+    },
+    "B": {
+      "rows": 220,
+      "distinct_chunk_ids": 220
+    },
+    "C": {
+      "rows": 554,
+      "distinct_chunk_ids": 554
+    }
+  }
+}

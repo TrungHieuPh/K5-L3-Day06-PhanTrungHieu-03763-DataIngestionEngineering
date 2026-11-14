@@ -1,0 +1,670 @@
+{
+  "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+  "physical_pages": 94,
+  "content_pages": 93,
+  "empty_or_error_pages": [
+    94
+  ],
+  "total_raw_chars": 201677,
+  "total_normalized_chars": 189167,
+  "pages": [
+    {
+      "page": 1,
+      "raw_chars": 1490,
+      "normalized_chars": 1390,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 2,
+      "raw_chars": 2620,
+      "normalized_chars": 2462,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 3,
+      "raw_chars": 2395,
+      "normalized_chars": 2245,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 4,
+      "raw_chars": 1976,
+      "normalized_chars": 1865,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 5,
+      "raw_chars": 2182,
+      "normalized_chars": 2044,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 6,
+      "raw_chars": 1835,
+      "normalized_chars": 1711,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 7,
+      "raw_chars": 1973,
+      "normalized_chars": 1839,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 8,
+      "raw_chars": 2131,
+      "normalized_chars": 2003,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 9,
+      "raw_chars": 2247,
+      "normalized_chars": 2121,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 10,
+      "raw_chars": 2205,
+      "normalized_chars": 2068,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 11,
+      "raw_chars": 2008,
+      "normalized_chars": 1898,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 12,
+      "raw_chars": 2071,
+      "normalized_chars": 1939,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 13,
+      "raw_chars": 2468,
+      "normalized_chars": 2336,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 14,
+      "raw_chars": 2067,
+      "normalized_chars": 1953,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 15,
+      "raw_chars": 2155,
+      "normalized_chars": 2000,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 16,
+      "raw_chars": 2073,
+      "normalized_chars": 1928,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 17,
+      "raw_chars": 2104,
+      "normalized_chars": 1948,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 18,
+      "raw_chars": 2117,
+      "normalized_chars": 1994,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 19,
+      "raw_chars": 2315,
+      "normalized_chars": 2175,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 20,
+      "raw_chars": 2394,
+      "normalized_chars": 2250,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 21,
+      "raw_chars": 2471,
+      "normalized_chars": 2344,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 22,
+      "raw_chars": 2036,
+      "normalized_chars": 1929,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 23,
+      "raw_chars": 2030,
+      "normalized_chars": 1924,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 24,
+      "raw_chars": 2090,
+      "normalized_chars": 1955,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 25,
+      "raw_chars": 2220,
+      "normalized_chars": 2095,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 26,
+      "raw_chars": 2185,
+      "normalized_chars": 2030,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 27,
+      "raw_chars": 2382,
+      "normalized_chars": 2231,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 28,
+      "raw_chars": 1847,
+      "normalized_chars": 1751,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 29,
+      "raw_chars": 1682,
+      "normalized_chars": 1559,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 30,
+      "raw_chars": 2182,
+      "normalized_chars": 2067,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 31,
+      "raw_chars": 2420,
+      "normalized_chars": 2259,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 32,
+      "raw_chars": 2522,
+      "normalized_chars": 2372,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 33,
+      "raw_chars": 2347,
+      "normalized_chars": 2168,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 34,
+      "raw_chars": 2084,
+      "normalized_chars": 1939,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 35,
+      "raw_chars": 2560,
+      "normalized_chars": 2420,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 36,
+      "raw_chars": 2590,
+      "normalized_chars": 2454,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 37,
+      "raw_chars": 2474,
+      "normalized_chars": 2298,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 38,
+      "raw_chars": 2405,
+      "normalized_chars": 2274,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 39,
+      "raw_chars": 1987,
+      "normalized_chars": 1842,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 40,
+      "raw_chars": 2293,
+      "normalized_chars": 2140,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 41,
+      "raw_chars": 2343,
+      "normalized_chars": 2177,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 42,
+      "raw_chars": 2183,
+      "normalized_chars": 2044,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 43,
+      "raw_chars": 2429,
+      "normalized_chars": 2311,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 44,
+      "raw_chars": 1712,
+      "normalized_chars": 1594,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 45,
+      "raw_chars": 2390,
+      "normalized_chars": 2257,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 46,
+      "raw_chars": 1905,
+      "normalized_chars": 1789,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 47,
+      "raw_chars": 2425,
+      "normalized_chars": 2324,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 48,
+      "raw_chars": 1947,
+      "normalized_chars": 1839,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 49,
+      "raw_chars": 1989,
+      "normalized_chars": 1858,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 50,
+      "raw_chars": 2064,
+      "normalized_chars": 1943,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 51,
+      "raw_chars": 2002,
+      "normalized_chars": 1844,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 52,
+      "raw_chars": 2135,
+      "normalized_chars": 1991,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 53,
+      "raw_chars": 2267,
+      "normalized_chars": 2118,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 54,
+      "raw_chars": 1994,
+      "normalized_chars": 1848,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 55,
+      "raw_chars": 2139,
+      "normalized_chars": 1985,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 56,
+      "raw_chars": 2541,
+      "normalized_chars": 2390,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 57,
+      "raw_chars": 2575,
+      "normalized_chars": 2457,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 58,
+      "raw_chars": 1841,
+      "normalized_chars": 1720,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 59,
+      "raw_chars": 2207,
+      "normalized_chars": 2053,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 60,
+      "raw_chars": 1572,
+      "normalized_chars": 1463,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 61,
+      "raw_chars": 2117,
+      "normalized_chars": 1967,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 62,
+      "raw_chars": 2388,
+      "normalized_chars": 2209,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 63,
+      "raw_chars": 2250,
+      "normalized_chars": 2093,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 64,
+      "raw_chars": 1895,
+      "normalized_chars": 1778,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 65,
+      "raw_chars": 2083,
+      "normalized_chars": 1971,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 66,
+      "raw_chars": 1982,
+      "normalized_chars": 1876,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 67,
+      "raw_chars": 2327,
+      "normalized_chars": 2166,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 68,
+      "raw_chars": 2133,
+      "normalized_chars": 1981,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 69,
+      "raw_chars": 2335,
+      "normalized_chars": 2203,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 70,
+      "raw_chars": 2186,
+      "normalized_chars": 2051,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 71,
+      "raw_chars": 2518,
+      "normalized_chars": 2345,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 72,
+      "raw_chars": 1933,
+      "normalized_chars": 1817,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 73,
+      "raw_chars": 2350,
+      "normalized_chars": 2220,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 74,
+      "raw_chars": 2245,
+      "normalized_chars": 2093,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 75,
+      "raw_chars": 2239,
+      "normalized_chars": 2117,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 76,
+      "raw_chars": 2032,
+      "normalized_chars": 1891,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 77,
+      "raw_chars": 2273,
+      "normalized_chars": 2133,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 78,
+      "raw_chars": 2349,
+      "normalized_chars": 2202,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 79,
+      "raw_chars": 2024,
+      "normalized_chars": 1897,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 80,
+      "raw_chars": 2427,
+      "normalized_chars": 2281,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 81,
+      "raw_chars": 2073,
+      "normalized_chars": 1938,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 82,
+      "raw_chars": 2365,
+      "normalized_chars": 2234,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 83,
+      "raw_chars": 1888,
+      "normalized_chars": 1788,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 84,
+      "raw_chars": 2205,
+      "normalized_chars": 2070,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 85,
+      "raw_chars": 2137,
+      "normalized_chars": 2018,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 86,
+      "raw_chars": 2393,
+      "normalized_chars": 2271,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 87,
+      "raw_chars": 2165,
+      "normalized_chars": 2047,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 88,
+      "raw_chars": 1729,
+      "normalized_chars": 1609,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 89,
+      "raw_chars": 2145,
+      "normalized_chars": 2008,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 90,
+      "raw_chars": 2365,
+      "normalized_chars": 2195,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 91,
+      "raw_chars": 2344,
+      "normalized_chars": 2210,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 92,
+      "raw_chars": 2445,
+      "normalized_chars": 2305,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 93,
+      "raw_chars": 1044,
+      "normalized_chars": 958,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "page": 94,
+      "raw_chars": 0,
+      "normalized_chars": 0,
+      "status": "empty",
+      "error": null
+    }
+  ]
+}

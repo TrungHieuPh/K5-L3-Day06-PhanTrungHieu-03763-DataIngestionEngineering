@@ -1,0 +1,171 @@
+{
+  "label_status": "DRAFT_AI — nhãn nháp do Claude (claude-opus-5-5) đọc chunk và soạn; sinh viên PHẢI đọc lại từng nhãn, sửa nếu không đồng ý, rồi đổi status thành REVIEWED_BY_STUDENT",
+  "method": {
+    "labeler": "Claude (LLM) đọc toàn văn chunk trong coherence_sample.md / grounding_sample.md; không dùng điểm số tự động để quyết định nhãn",
+    "bias_risk": "Người chấm (Claude) đã thấy Hit@1/Hit@3 trước khi chấm grounding; mẫu coherence được chọn bằng quy tắc cố định trong code trước khi đọc chunk. Tác giả benchmark và người chấm là cùng một phía (sinh viên + AI hỗ trợ) nên có nguy cơ thiên lệch.",
+    "coherence_rule": "Chấm CẢ chunk chứa vị trí (chunk đầu tiên theo char_start nếu nhiều chunk phủ). 2 = tự hiểu được, mọi ý trọn vẹn (không mở/kết giữa câu làm mất nghĩa); 1 = ý tại vị trí hiểu được nhưng chunk có mảnh câu đầu/cuối hoặc thiếu câu dẫn/tiêu đề nên thiếu ngữ cảnh/hệ quả pháp lý; 0 = ý tại vị trí bị cắt hoặc mất chủ thể làm không hiểu.",
+    "grounding_rule": "Chấm top-3 GỘP LẠI theo GUIDE §4.4. 0 = không có bằng chứng cho đáp án; 1 = có bằng chứng nhưng thiếu điều kiện/ngữ cảnh/điểm cần thiết; 2 = đủ để trả lời và truy nguồn (Điều + trang qua metadata). Câu nhiều điểm (q17, q27): thiếu điểm a)…g) => 1. Không đánh giá câu trả lời LLM."
+  },
+  "coherence": {
+    "A": {
+      "n": 10,
+      "count_0": 5,
+      "count_1": 5,
+      "count_2": 0,
+      "sum": 5,
+      "mean_of_2": 0.5
+    },
+    "B": {
+      "n": 10,
+      "count_0": 0,
+      "count_1": 0,
+      "count_2": 10,
+      "sum": 20,
+      "mean_of_2": 2.0
+    },
+    "C": {
+      "n": 10,
+      "count_0": 1,
+      "count_1": 1,
+      "count_2": 8,
+      "sum": 17,
+      "mean_of_2": 1.7
+    }
+  },
+  "grounding": {
+    "A": {
+      "n": 5,
+      "count_0": 2,
+      "count_1": 2,
+      "count_2": 1,
+      "sum": 4,
+      "mean_of_2": 0.8
+    },
+    "B": {
+      "n": 5,
+      "count_0": 2,
+      "count_1": 0,
+      "count_2": 3,
+      "sum": 6,
+      "mean_of_2": 1.2
+    },
+    "C": {
+      "n": 5,
+      "count_0": 3,
+      "count_1": 1,
+      "count_2": 1,
+      "sum": 3,
+      "mean_of_2": 0.6
+    }
+  },
+  "metadata": {
+    "A": {
+      "records_checked": 15,
+      "complete_and_correct": 15,
+      "errors": [],
+      "test_filter_compliance": {
+        "compliant": 2,
+        "n": 2
+      },
+      "all_filter_compliance": {
+        "compliant": 4,
+        "n": 4
+      },
+      "filter_ablation": {
+        "n": 4,
+        "with_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 1,
+          "article_hit@3": 2
+        },
+        "without_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 1,
+          "article_hit@3": 2
+        },
+        "without_filter_out_of_scope_chunks": 4,
+        "without_filter_total_chunks": 12
+      }
+    },
+    "B": {
+      "records_checked": 15,
+      "complete_and_correct": 15,
+      "errors": [],
+      "test_filter_compliance": {
+        "compliant": 2,
+        "n": 2
+      },
+      "all_filter_compliance": {
+        "compliant": 4,
+        "n": 4
+      },
+      "filter_ablation": {
+        "n": 4,
+        "with_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 3,
+          "article_hit@3": 3
+        },
+        "without_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 2,
+          "article_hit@3": 2
+        },
+        "without_filter_out_of_scope_chunks": 2,
+        "without_filter_total_chunks": 12
+      }
+    },
+    "C": {
+      "records_checked": 15,
+      "complete_and_correct": 15,
+      "errors": [],
+      "test_filter_compliance": {
+        "compliant": 2,
+        "n": 2
+      },
+      "all_filter_compliance": {
+        "compliant": 4,
+        "n": 4
+      },
+      "filter_ablation": {
+        "n": 4,
+        "with_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 1,
+          "article_hit@3": 1
+        },
+        "without_filter": {
+          "hit@1": 1,
+          "evidence_hit@3": 1,
+          "article_hit@3": 1
+        },
+        "without_filter_out_of_scope_chunks": 1,
+        "without_filter_total_chunks": 12
+      }
+    }
+  },
+  "grounding_auto_proxy_test_evidence_hit@3": {
+    "A": {
+      "hits": 2,
+      "rate": 0.4
+    },
+    "B": {
+      "hits": 3,
+      "rate": 0.6
+    },
+    "C": {
+      "hits": 2,
+      "rate": 0.4
+    }
+  },
+  "A_chunks_crossing_chapter_boundary": {
+    "n": 16,
+    "of": 421
+  },
+  "metadata_notes": [
+    "45/45 bản ghi (5 câu test × top-3 × 3 chiến lược) khớp bộ kiểm tra độc lập (regex riêng cho 'Điều N.'/'Chương X', vị trí văn bản trong nguồn → trang). Đối chiếu bằng mắt các bản ghi trong grounding_sample.md: số Điều, trang và chương khớp nội dung chunk. Sinh viên nên mở PDF đối chiếu tối thiểu 5 bản ghi (ví dụ q19-A rank1 trang 52, q27-B rank2 trang 77–78).",
+    "Hạn chế A: chunk vắt nhiều Điều chỉ có một giá trị `article`/`chapter_roman` (Điều chứa đầu cửa sổ); danh sách đầy đủ nằm ở `articles`. Filter chương dùng chương chính nên chunk vắt ranh giới chương có thể bị loại/nhận sai.",
+    "Hạn chế chung: cột `page` = trang bắt đầu; chunk vắt trang cần `page_end` trong metadata JSON để truy đủ.",
+    "Lỗi văn bản (không phải metadata) quan sát được: B art186 dính tiêu đề 'Mục 2 THẨM QUYỀN VÀ TRÌNH TỰ…' của mục kế tiếp; C art042#k5-6 có lỗi ghép từ 'choỦy ban' từ bước chuẩn hóa."
+  ]
+}

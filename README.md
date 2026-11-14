@@ -45,3 +45,43 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+---
+
+## Bài nộp — cách tái lập
+
+Corpus: **Bộ luật Lao động 45/2019/QH14**. Báo cáo: [report/individual/03763_PhanTrungHieu.md](report/individual/03763_PhanTrungHieu.md). Học viên: [STUDENT.md](STUDENT.md).
+
+### Đường dẫn dữ liệu và kết quả
+
+| Nội dung | Đường dẫn |
+|---|---|
+| Corpus (PDF có text layer, public domain) | [starter/data/bo_luat_lao_dong_45_2019_QH14.pdf](starter/data/bo_luat_lao_dong_45_2019_QH14.pdf) |
+| Manifest: nguồn, quyền, SHA-256, số trang, quy tắc tính trang | [starter/data/manifest.json](starter/data/manifest.json) |
+| Benchmark: 25 câu, 20 dev / 5 test, evidence | [starter/benchmark/questions.json](starter/benchmark/questions.json) và [starter/benchmark/README.md](starter/benchmark/README.md) |
+| Code pipeline | [starter/src/](starter/src/) |
+| Kết quả: chỉ số, cấu hình và phiên bản | [starter/results/summary.json](starter/results/summary.json) |
+| Trace top-3 | `starter/results/traces_{A,B,C}.jsonl` |
+| Audit thủ công: coherence, metadata, grounding | [starter/results/audit/](starter/results/audit/) |
+| Nhật ký thí nghiệm A/B/C | [artifacts/experiment_log.csv](artifacts/experiment_log.csv) |
+
+### Chạy lại từ đầu
+
+Yêu cầu: Docker Desktop, Python 3.11–3.14, và mạng ở lần đầu để tải Docker image, dependencies và model HuggingFace (`paraphrase-multilingual-MiniLM-L12-v2`, khoảng 450 MB). Model chạy local nên **không cần API key**. Mọi lệnh chạy từ thư mục `starter/`:
+
+```bash
+cd starter
+python -m venv .venv
+# Windows PowerShell: .venv\Scripts\Activate.ps1   |   macOS/Linux: source .venv/bin/activate
+python -m pip install -r requirements.txt          # phiên bản đã pin
+# Windows PowerShell: Copy-Item .env.example .env   |   macOS/Linux: cp .env.example .env
+docker compose -p day6_student_starter up -d --wait
+python scripts/check_setup.py                       # kỳ vọng: "Setup OK" (PostgreSQL 16 + pgvector)
+
+python -m src.run                  # ingest → chunk A/B/C → embed → upsert pgvector → truy vấn 25 câu → results/
+python scripts/check_reingest.py   # kiểm tra nạp lại không nhân đôi → results/reingest_check.json
+python scripts/make_audit_sheets.py   # phiếu chấm tay + kiểm tra metadata độc lập → results/audit/
+python scripts/score_audit.py         # gộp nhãn trong results/audit/labels.json → audit_summary.{json,md}
+```
+
+Trên một máy Windows 11 chạy CPU, `python -m src.run` mất khoảng 2 phút và tốn 0 USD. Chạy lại sẽ ghi đè các file trong `results/`. Bản ghi lần chạy lỗi trước khi sửa (v1) được giữ ở `starter/results/run_v1_before_fix/`.

@@ -1,0 +1,110 @@
+{
+  "A": {
+    "label": "fixed_size(500,50)",
+    "n_chunks": 421,
+    "resources": {
+      "embed_s": 11.458,
+      "upsert_s": 0.195,
+      "avg_query_s": 0.0554,
+      "max_query_s": 0.0649
+    },
+    "metrics": {
+      "all": {
+        "n": 25,
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "evidence_hit@3": 0.36
+      },
+      "dev": {
+        "n": 20,
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "evidence_hit@3": 0.35
+      },
+      "test": {
+        "n": 5,
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "evidence_hit@3": 0.4
+      },
+      "filter_only": {
+        "n": 4,
+        "hit@1": 0.0,
+        "hit@3": 0.0,
+        "evidence_hit@3": 0.0
+      }
+    }
+  },
+  "B": {
+    "label": "by_article",
+    "n_chunks": 220,
+    "resources": {
+      "embed_s": 5.674,
+      "upsert_s": 0.125,
+      "avg_query_s": 0.0534,
+      "max_query_s": 0.0651
+    },
+    "metrics": {
+      "all": {
+        "n": 25,
+        "hit@1": 0.56,
+        "hit@3": 0.84,
+        "evidence_hit@3": 0.56
+      },
+      "dev": {
+        "n": 20,
+        "hit@1": 0.55,
+        "hit@3": 0.9,
+        "evidence_hit@3": 0.6
+      },
+      "test": {
+        "n": 5,
+        "hit@1": 0.6,
+        "hit@3": 0.6,
+        "evidence_hit@3": 0.4
+      },
+      "filter_only": {
+        "n": 4,
+        "hit@1": 0.75,
+        "hit@3": 0.75,
+        "evidence_hit@3": 0.5
+      }
+    }
+  },
+  "C": {
+    "label": "by_clause(200,800)",
+    "n_chunks": 554,
+    "resources": {
+      "embed_s": 10.96,
+      "upsert_s": 0.313,
+      "avg_query_s": 0.0561,
+      "max_query_s": 0.0657
+    },
+    "metrics": {
+      "all": {
+        "n": 25,
+        "hit@1": 0.64,
+        "hit@3": 0.8,
+        "evidence_hit@3": 0.4
+      },
+      "dev": {
+        "n": 20,
+        "hit@1": 0.6,
+        "hit@3": 0.8,
+        "evidence_hit@3": 0.4
+      },
+      "test": {
+        "n": 5,
+        "hit@1": 0.8,
+        "hit@3": 0.8,
+        "evidence_hit@3": 0.4
+      },
+      "filter_only": {
+        "n": 4,
+        "hit@1": 0.75,
+        "hit@3": 0.75,
+        "evidence_hit@3": 0.25
+      }
+    }
+  }
+}

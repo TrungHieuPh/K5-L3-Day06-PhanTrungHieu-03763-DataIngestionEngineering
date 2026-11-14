@@ -1,0 +1,46 @@
+﻿strategy,question_id,rank,chunk_id,document_id,source,page,page_start,page_end,article,articles,chapter_roman,chapters_spanned,document_id_ok,source_ok,text_matches_source_span,page_ok,article_ok,articles_ok,chapter_ok,fields_present,complete_and_correct,filter,filter_compliant_query
+A,q06,1,BLLD_45_2019_QH14#A#p0418,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,92,92,93,219,"[219, 220]",XVII,"[""XVII""]",True,True,True,True,True,True,True,True,True,,
+A,q06,2,BLLD_45_2019_QH14#A#p0091,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,21,21,21,45,"[45, 46]",III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+A,q06,3,BLLD_45_2019_QH14#A#p0225,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,50,50,50,120,"[120, 121]",VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,,
+A,q17,1,BLLD_45_2019_QH14#A#p0090,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,21,21,21,45,[45],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+A,q17,2,BLLD_45_2019_QH14#A#p0065,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,15,15,15,34,"[34, 35]",III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+A,q17,3,BLLD_45_2019_QH14#A#p0075,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,17,17,18,36,"[36, 37]",III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+A,q19,1,BLLD_45_2019_QH14#A#p0233,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,52,52,52,125,[125],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,,
+A,q19,2,BLLD_45_2019_QH14#A#p0235,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,52,52,53,126,"[126, 127]",VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,,
+A,q19,3,BLLD_45_2019_QH14#A#p0091,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,21,21,21,45,"[45, 46]",III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+A,q23,1,BLLD_45_2019_QH14#A#p0228,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,51,51,51,122,[122],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+A,q23,2,BLLD_45_2019_QH14#A#p0227,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,50,50,51,122,[122],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+A,q23,3,BLLD_45_2019_QH14#A#p0236,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,52,52,53,127,"[127, 128]",VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+A,q27,1,BLLD_45_2019_QH14#A#p0351,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,78,78,78,188,"[188, 189]",XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
+A,q27,2,BLLD_45_2019_QH14#A#p0359,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,80,80,80,192,"[192, 193]",XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
+A,q27,3,BLLD_45_2019_QH14#A#p0345,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,77,77,77,188,[188],XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
+B,q06,1,BLLD_45_2019_QH14#B#art220,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,92,92,93,220,[220],XVII,"[""XVII""]",True,True,True,True,True,True,True,True,True,,
+B,q06,2,BLLD_45_2019_QH14#B#art121,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,50,50,50,121,[121],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,,
+B,q06,3,BLLD_45_2019_QH14#B#art046,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,21,21,21,46,[46],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+B,q17,1,BLLD_45_2019_QH14#B#art045,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,21,21,21,45,[45],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+B,q17,2,BLLD_45_2019_QH14#B#art037,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,18,18,18,37,[37],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+B,q17,3,BLLD_45_2019_QH14#B#art038,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,18,18,18,38,[38],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+B,q19,1,BLLD_45_2019_QH14#B#art047,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,21,21,22,47,[47],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+B,q19,2,BLLD_45_2019_QH14#B#art101,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,43,43,43,101,[101],VI,"[""VI""]",True,True,True,True,True,True,True,True,True,,
+B,q19,3,BLLD_45_2019_QH14#B#art126,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,52,52,52,126,[126],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,,
+B,q23,1,BLLD_45_2019_QH14#B#art131,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,54,54,54,131,[131],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+B,q23,2,BLLD_45_2019_QH14#B#art127,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,52,52,53,127,[127],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+B,q23,3,BLLD_45_2019_QH14#B#art125,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,52,52,52,125,[125],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+B,q27,1,BLLD_45_2019_QH14#B#art189,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,78,78,79,189,[189],XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
+B,q27,2,BLLD_45_2019_QH14#B#art188,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,77,77,78,188,[188],XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
+B,q27,3,BLLD_45_2019_QH14#B#art186,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,76,76,76,186,[186],XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
+C,q06,1,BLLD_45_2019_QH14#C#art220#k1-2,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,92,92,93,220,[220],XVII,"[""XVII""]",True,True,True,True,True,True,True,True,True,,
+C,q06,2,BLLD_45_2019_QH14#C#art121#preamble,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,50,50,50,121,[121],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,,
+C,q06,3,BLLD_45_2019_QH14#C#art046#k1,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,21,21,21,46,[46],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+C,q17,1,BLLD_45_2019_QH14#C#art045#k2,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,21,21,21,45,[45],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+C,q17,2,BLLD_45_2019_QH14#C#art040#k1-2,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,18,18,18,40,[40],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+C,q17,3,BLLD_45_2019_QH14#C#art036#k3,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,17,17,17,36,[36],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+C,q19,1,BLLD_45_2019_QH14#C#art125#k4,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,52,52,52,125,[125],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,,
+C,q19,2,BLLD_45_2019_QH14#C#art042#k5-6,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,20,20,20,42,[42],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+C,q19,3,BLLD_45_2019_QH14#C#art029#k4,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,13,13,13,29,[29],III,"[""III""]",True,True,True,True,True,True,True,True,True,,
+C,q23,1,BLLD_45_2019_QH14#C#art122#k2-3,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,51,51,51,122,[122],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+C,q23,2,BLLD_45_2019_QH14#C#art127#k3,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,53,53,53,127,[127],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+C,q23,3,BLLD_45_2019_QH14#C#art118#k1-2#p1,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,49,49,49,118,[118],VIII,"[""VIII""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""VIII""}",True
+C,q27,1,BLLD_45_2019_QH14#C#art193#k4,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,80,80,80,193,[193],XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
+C,q27,2,BLLD_45_2019_QH14#C#art193#k6,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,81,81,81,193,[193],XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
+C,q27,3,BLLD_45_2019_QH14#C#art189#k5,BLLD_45_2019_QH14,bo_luat_lao_dong_45_2019_QH14.pdf,79,79,79,189,[189],XIV,"[""XIV""]",True,True,True,True,True,True,True,True,True,"{""chapter"": ""XIV""}",True
