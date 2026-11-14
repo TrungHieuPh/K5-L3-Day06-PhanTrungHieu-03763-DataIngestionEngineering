@@ -1,0 +1,37 @@
+total_pages=94
+empty_raw_pages=[94]
+
+=== page 1 | raw_len=1490 | norm_len=1390 ===
+--- RAW ---
+ \n CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019 3 \n \nQUỐC HỘI \n \nBộ luật số: 45/2019/QH14 \n \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM \nĐộc lập - Tự do - Hạnh phúc \n \nBỘ LUẬT \nLAO ĐỘNG \n \nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; \nQuốc hội ban hành Bộ luật Lao động. \n \nChương I \nNHỮNG QUY ĐỊNH CHUNG \n \nĐiều 1. Phạm vi điều chỉnh \nBộ luật Lao động quy định tiêu chuẩn lao động; quyền, nghĩa vụ, trách nhiệm \ncủa người lao động, người sử dụng lao động, tổ chức đại diện người l…
+--- NORMALIZED ---
+QUỐC HỘI\n\nBộ luật số: 45/2019/QH14\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nBỘ LUẬT\nLAO ĐỘNG\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\nQuốc hội ban hành Bộ luật Lao động.\n\nChương I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh\nBộ luật Lao động quy định tiêu chuẩn lao động; quyền, nghĩa vụ, trách nhiệm\ncủa người lao động, người sử dụng lao động, tổ chức đại diện người lao động tại\ncơ sở, tổ chức đại diện người sử dụng lao động trong q…
+
+=== page 2 | raw_len=2620 | norm_len=2462 ===
+--- RAW ---
+ \n4 CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019 \n  \nthỏa thu ận; tr ường h ợp ng ười s ử d ụng lao động là cá nhân thì ph ải có n ăng l ực \nhành vi dân sự đầy đủ. \n3. Tổ chức đại diện người lao động tại cơ sở là tổ chức được thành lập trên cơ \nsở tự nguyện của người lao động tại một đơn vị sử dụng lao động nhằm mục đích \nbảo vệ quyền và l ợi ích h ợp pháp, chính đáng của người lao động trong quan h ệ \nlao động thông qua th ương lượng tập thể hoặc các hình th ức khác theo quy định \ncủa pháp lu…
+--- NORMALIZED ---
+thỏa thuận; trường hợp người sử dụng lao động là cá nhân thì phải có năng lực\nhành vi dân sự đầy đủ.\n3. Tổ chức đại diện người lao động tại cơ sở là tổ chức được thành lập trên cơ\nsở tự nguyện của người lao động tại một đơn vị sử dụng lao động nhằm mục đích\nbảo vệ quyền và lợi ích hợp pháp, chính đáng của người lao động trong quan hệ\nlao động thông qua thương lượng tập thể hoặc các hình thức khác theo quy định\ncủa pháp luật về lao động. Tổ chức đại diện người lao động tại cơ sở bao gồm côn…
+
+=== page 10 | raw_len=2205 | norm_len=2069 ===
+--- RAW ---
+ \n12 CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019 \n  \nc) Trường hợp hai bên ký kết hợp đồng lao động mới là hợp đồng lao động xác \nđịnh thời hạn thì cũng chỉ được ký thêm 01 lần, sau đó nếu người lao động vẫn tiếp \ntục làm vi ệc thì ph ải ký k ết hợp đồng lao động không xác định thời hạn, trừ hợp \nđồng lao động đối với người được thuê làm giám đốc trong doanh nghi ệp có v ốn \nnhà n ước và tr ường h ợp quy định t ại kho ản 1 Điều 149, kho ản 2 Điều 151 và \nkhoản 4 Điều 177 của Bộ luật này. \nĐiề…
+--- NORMALIZED ---
+c) Trường hợp hai bên ký kết hợp đồng lao động mới là hợp đồng lao động xác\nđịnh thời hạn thì cũng chỉ được ký thêm 01 lần, sau đó nếu người lao động vẫn tiếp\ntục làm việc thì phải ký kết hợp đồng lao động không xác định thời hạn, trừ hợp\nđồng lao động đối với người được thuê làm giám đốc trong doanh nghiệp có vốn\nnhà nước và trường hợp quy định tại khoản 1 Điều 149, khoản 2 Điều 151 và\nkhoản 4 Điều 177 của Bộ luật này.\nĐiều 21. Nội dung hợp đồng lao động\n1. Hợp đồng lao động phải có nhữn…
+
+=== page 40 | raw_len=2293 | norm_len=2140 ===
+--- RAW ---
+ \n42 CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019 \n  \ncung, c ầu lao động; vi ệc làm và th ất nghi ệp; n ăng su ất lao động; kh ả n ăng chi \ntrả của doanh nghi ệp. \n4. Chính phủ quy định chi tiết Điều này; quyết định và công bố mức lương tối \nthiểu trên cơ sở khuyến nghị của Hội đồng tiền lương quốc gia. \nĐiều 92. Hội đồng tiền lương quốc gia \n1. H ội đồng ti ền l ương qu ốc gia là c ơ quan t ư v ấn cho Chính ph ủ v ề m ức \nlương tối thiểu và chính sách tiền lương đối với người lao động. \n2. …
+--- NORMALIZED ---
+cung, cầu lao động; việc làm và thất nghiệp; năng suất lao động; khả năng chi\ntrả của doanh nghiệp.\n4. Chính phủ quy định chi tiết Điều này; quyết định và công bố mức lương tối\nthiểu trên cơ sở khuyến nghị của Hội đồng tiền lương quốc gia.\nĐiều 92. Hội đồng tiền lương quốc gia\n1. Hội đồng tiền lương quốc gia là cơ quan tư vấn cho Chính phủ về mức\nlương tối thiểu và chính sách tiền lương đối với người lao động.\n2. Thủ tướng Chính phủ thành lập Hội đồng tiền lương quốc gia bao gồm các\nthàn…
+
+=== page 82 | raw_len=2365 | norm_len=2234 ===
+--- RAW ---
+ \n84 CÔNG BÁO/Số 993 + 994/Ngày 26-12-2019 \n  \n3. Tr ường h ợp hòa gi ải không thành ho ặc h ết th ời h ạn hòa gi ải quy định t ại \nkhoản 2 Điều 188 của Bộ luật này mà hòa gi ải viên lao động không tiến hành hòa \ngiải ho ặc một trong các bên không th ực hi ện th ỏa thu ận trong biên b ản hòa gi ải \nthành thì các bên tranh chấp có quyền lựa chọn một trong các ph ương thức sau để \ngiải quyết tranh chấp: \na) Yêu c ầu Hội đồng trọng tài lao động giải quyết theo quy định tại Điều 197 \ncủa Bộ…
+--- NORMALIZED ---
+3. Trường hợp hòa giải không thành hoặc hết thời hạn hòa giải quy định tại\nkhoản 2 Điều 188 của Bộ luật này mà hòa giải viên lao động không tiến hành hòa\ngiải hoặc một trong các bên không thực hiện thỏa thuận trong biên bản hòa giải\nthành thì các bên tranh chấp có quyền lựa chọn một trong các phương thức sau để\ngiải quyết tranh chấp:\na) Yêu cầu Hội đồng trọng tài lao động giải quyết theo quy định tại Điều 197\ncủa Bộ luật này;\nb) Tổ chức đại diện người lao động có quyền tiến hành thủ tục q…
+
+=== page 94 | raw_len=0 | norm_len=0 ===
+--- RAW ---
+
+--- NORMALIZED ---

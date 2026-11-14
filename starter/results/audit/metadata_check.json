@@ -1,0 +1,1813 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "q06",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0418",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 92,
+    "page_start": 92,
+    "page_end": 93,
+    "article": 219,
+    "articles": [
+      219,
+      220
+    ],
+    "chapter_roman": "XVII",
+    "expected": {
+      "page_start": 92,
+      "page_end": 93,
+      "article": 219,
+      "articles": [
+        219,
+        220
+      ],
+      "chapter_roman": "XVII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XVII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q06",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0091",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 21,
+    "page_start": 21,
+    "page_end": 21,
+    "article": 45,
+    "articles": [
+      45,
+      46
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 21,
+      "page_end": 21,
+      "article": 45,
+      "articles": [
+        45,
+        46
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q06",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0225",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 50,
+    "page_start": 50,
+    "page_end": 50,
+    "article": 120,
+    "articles": [
+      120,
+      121
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 50,
+      "page_end": 50,
+      "article": 120,
+      "articles": [
+        120,
+        121
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q17",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0090",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 21,
+    "page_start": 21,
+    "page_end": 21,
+    "article": 45,
+    "articles": [
+      45
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 21,
+      "page_end": 21,
+      "article": 45,
+      "articles": [
+        45
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q17",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0065",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 15,
+    "page_start": 15,
+    "page_end": 15,
+    "article": 34,
+    "articles": [
+      34,
+      35
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 15,
+      "page_end": 15,
+      "article": 34,
+      "articles": [
+        34,
+        35
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q17",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0075",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 17,
+    "page_start": 17,
+    "page_end": 18,
+    "article": 36,
+    "articles": [
+      36,
+      37
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 17,
+      "page_end": 18,
+      "article": 36,
+      "articles": [
+        36,
+        37
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q19",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0233",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 52,
+    "page_start": 52,
+    "page_end": 52,
+    "article": 125,
+    "articles": [
+      125
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 52,
+      "page_end": 52,
+      "article": 125,
+      "articles": [
+        125
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q19",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0235",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 52,
+    "page_start": 52,
+    "page_end": 53,
+    "article": 126,
+    "articles": [
+      126,
+      127
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 52,
+      "page_end": 53,
+      "article": 126,
+      "articles": [
+        126,
+        127
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q19",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0091",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 21,
+    "page_start": 21,
+    "page_end": 21,
+    "article": 45,
+    "articles": [
+      45,
+      46
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 21,
+      "page_end": 21,
+      "article": 45,
+      "articles": [
+        45,
+        46
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "A",
+    "question_id": "q23",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0228",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 51,
+    "page_start": 51,
+    "page_end": 51,
+    "article": 122,
+    "articles": [
+      122
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 51,
+      "page_end": 51,
+      "article": 122,
+      "articles": [
+        122
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "A",
+    "question_id": "q23",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0227",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 50,
+    "page_start": 50,
+    "page_end": 51,
+    "article": 122,
+    "articles": [
+      122
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 50,
+      "page_end": 51,
+      "article": 122,
+      "articles": [
+        122
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "A",
+    "question_id": "q23",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0236",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 52,
+    "page_start": 52,
+    "page_end": 53,
+    "article": 127,
+    "articles": [
+      127,
+      128
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 52,
+      "page_end": 53,
+      "article": 127,
+      "articles": [
+        127,
+        128
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "A",
+    "question_id": "q27",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0351",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 78,
+    "page_start": 78,
+    "page_end": 78,
+    "article": 188,
+    "articles": [
+      188,
+      189
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 78,
+      "page_end": 78,
+      "article": 188,
+      "articles": [
+        188,
+        189
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "A",
+    "question_id": "q27",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0359",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 80,
+    "page_start": 80,
+    "page_end": 80,
+    "article": 192,
+    "articles": [
+      192,
+      193
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 80,
+      "page_end": 80,
+      "article": 192,
+      "articles": [
+        192,
+        193
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "A",
+    "question_id": "q27",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#A#p0345",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 77,
+    "page_start": 77,
+    "page_end": 77,
+    "article": 188,
+    "articles": [
+      188
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 77,
+      "page_end": 77,
+      "article": 188,
+      "articles": [
+        188
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "B",
+    "question_id": "q06",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#B#art220",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 92,
+    "page_start": 92,
+    "page_end": 93,
+    "article": 220,
+    "articles": [
+      220
+    ],
+    "chapter_roman": "XVII",
+    "expected": {
+      "page_start": 92,
+      "page_end": 93,
+      "article": 220,
+      "articles": [
+        220
+      ],
+      "chapter_roman": "XVII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XVII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q06",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#B#art121",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 50,
+    "page_start": 50,
+    "page_end": 50,
+    "article": 121,
+    "articles": [
+      121
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 50,
+      "page_end": 50,
+      "article": 121,
+      "articles": [
+        121
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q06",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#B#art046",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 21,
+    "page_start": 21,
+    "page_end": 21,
+    "article": 46,
+    "articles": [
+      46
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 21,
+      "page_end": 21,
+      "article": 46,
+      "articles": [
+        46
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q17",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#B#art045",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 21,
+    "page_start": 21,
+    "page_end": 21,
+    "article": 45,
+    "articles": [
+      45
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 21,
+      "page_end": 21,
+      "article": 45,
+      "articles": [
+        45
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q17",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#B#art037",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 18,
+    "page_start": 18,
+    "page_end": 18,
+    "article": 37,
+    "articles": [
+      37
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 18,
+      "page_end": 18,
+      "article": 37,
+      "articles": [
+        37
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q17",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#B#art038",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 18,
+    "page_start": 18,
+    "page_end": 18,
+    "article": 38,
+    "articles": [
+      38
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 18,
+      "page_end": 18,
+      "article": 38,
+      "articles": [
+        38
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q19",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#B#art047",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 21,
+    "page_start": 21,
+    "page_end": 22,
+    "article": 47,
+    "articles": [
+      47
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 21,
+      "page_end": 22,
+      "article": 47,
+      "articles": [
+        47
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q19",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#B#art101",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 43,
+    "page_start": 43,
+    "page_end": 43,
+    "article": 101,
+    "articles": [
+      101
+    ],
+    "chapter_roman": "VI",
+    "expected": {
+      "page_start": 43,
+      "page_end": 43,
+      "article": 101,
+      "articles": [
+        101
+      ],
+      "chapter_roman": "VI"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VI"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q19",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#B#art126",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 52,
+    "page_start": 52,
+    "page_end": 52,
+    "article": 126,
+    "articles": [
+      126
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 52,
+      "page_end": 52,
+      "article": 126,
+      "articles": [
+        126
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "B",
+    "question_id": "q23",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#B#art131",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 54,
+    "page_start": 54,
+    "page_end": 54,
+    "article": 131,
+    "articles": [
+      131
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 54,
+      "page_end": 54,
+      "article": 131,
+      "articles": [
+        131
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "B",
+    "question_id": "q23",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#B#art127",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 52,
+    "page_start": 52,
+    "page_end": 53,
+    "article": 127,
+    "articles": [
+      127
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 52,
+      "page_end": 53,
+      "article": 127,
+      "articles": [
+        127
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "B",
+    "question_id": "q23",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#B#art125",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 52,
+    "page_start": 52,
+    "page_end": 52,
+    "article": 125,
+    "articles": [
+      125
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 52,
+      "page_end": 52,
+      "article": 125,
+      "articles": [
+        125
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "B",
+    "question_id": "q27",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#B#art189",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 78,
+    "page_start": 78,
+    "page_end": 79,
+    "article": 189,
+    "articles": [
+      189
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 78,
+      "page_end": 79,
+      "article": 189,
+      "articles": [
+        189
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "B",
+    "question_id": "q27",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#B#art188",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 77,
+    "page_start": 77,
+    "page_end": 78,
+    "article": 188,
+    "articles": [
+      188
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 77,
+      "page_end": 78,
+      "article": 188,
+      "articles": [
+        188
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "B",
+    "question_id": "q27",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#B#art186",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 76,
+    "page_start": 76,
+    "page_end": 76,
+    "article": 186,
+    "articles": [
+      186
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 76,
+      "page_end": 76,
+      "article": 186,
+      "articles": [
+        186
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "C",
+    "question_id": "q06",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#C#art220#k1-2",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 92,
+    "page_start": 92,
+    "page_end": 93,
+    "article": 220,
+    "articles": [
+      220
+    ],
+    "chapter_roman": "XVII",
+    "expected": {
+      "page_start": 92,
+      "page_end": 93,
+      "article": 220,
+      "articles": [
+        220
+      ],
+      "chapter_roman": "XVII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XVII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q06",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#C#art121#preamble",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 50,
+    "page_start": 50,
+    "page_end": 50,
+    "article": 121,
+    "articles": [
+      121
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 50,
+      "page_end": 50,
+      "article": 121,
+      "articles": [
+        121
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q06",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#C#art046#k1",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 21,
+    "page_start": 21,
+    "page_end": 21,
+    "article": 46,
+    "articles": [
+      46
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 21,
+      "page_end": 21,
+      "article": 46,
+      "articles": [
+        46
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q17",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#C#art045#k2",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 21,
+    "page_start": 21,
+    "page_end": 21,
+    "article": 45,
+    "articles": [
+      45
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 21,
+      "page_end": 21,
+      "article": 45,
+      "articles": [
+        45
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q17",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#C#art040#k1-2",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 18,
+    "page_start": 18,
+    "page_end": 18,
+    "article": 40,
+    "articles": [
+      40
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 18,
+      "page_end": 18,
+      "article": 40,
+      "articles": [
+        40
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q17",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#C#art036#k3",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 17,
+    "page_start": 17,
+    "page_end": 17,
+    "article": 36,
+    "articles": [
+      36
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 17,
+      "page_end": 17,
+      "article": 36,
+      "articles": [
+        36
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q19",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#C#art125#k4",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 52,
+    "page_start": 52,
+    "page_end": 52,
+    "article": 125,
+    "articles": [
+      125
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 52,
+      "page_end": 52,
+      "article": 125,
+      "articles": [
+        125
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q19",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#C#art042#k5-6",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 20,
+    "page_start": 20,
+    "page_end": 20,
+    "article": 42,
+    "articles": [
+      42
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 20,
+      "page_end": 20,
+      "article": 42,
+      "articles": [
+        42
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q19",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#C#art029#k4",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 13,
+    "page_start": 13,
+    "page_end": 13,
+    "article": 29,
+    "articles": [
+      29
+    ],
+    "chapter_roman": "III",
+    "expected": {
+      "page_start": 13,
+      "page_end": 13,
+      "article": 29,
+      "articles": [
+        29
+      ],
+      "chapter_roman": "III"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "III"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": null,
+    "filter_compliant_query": null
+  },
+  {
+    "strategy": "C",
+    "question_id": "q23",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#C#art122#k2-3",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 51,
+    "page_start": 51,
+    "page_end": 51,
+    "article": 122,
+    "articles": [
+      122
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 51,
+      "page_end": 51,
+      "article": 122,
+      "articles": [
+        122
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "C",
+    "question_id": "q23",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#C#art127#k3",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 53,
+    "page_start": 53,
+    "page_end": 53,
+    "article": 127,
+    "articles": [
+      127
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 53,
+      "page_end": 53,
+      "article": 127,
+      "articles": [
+        127
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "C",
+    "question_id": "q23",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#C#art118#k1-2#p1",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 49,
+    "page_start": 49,
+    "page_end": 49,
+    "article": 118,
+    "articles": [
+      118
+    ],
+    "chapter_roman": "VIII",
+    "expected": {
+      "page_start": 49,
+      "page_end": 49,
+      "article": 118,
+      "articles": [
+        118
+      ],
+      "chapter_roman": "VIII"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "VIII"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "VIII"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "C",
+    "question_id": "q27",
+    "rank": 1,
+    "chunk_id": "BLLD_45_2019_QH14#C#art193#k4",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 80,
+    "page_start": 80,
+    "page_end": 80,
+    "article": 193,
+    "articles": [
+      193
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 80,
+      "page_end": 80,
+      "article": 193,
+      "articles": [
+        193
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "C",
+    "question_id": "q27",
+    "rank": 2,
+    "chunk_id": "BLLD_45_2019_QH14#C#art193#k6",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 81,
+    "page_start": 81,
+    "page_end": 81,
+    "article": 193,
+    "articles": [
+      193
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 81,
+      "page_end": 81,
+      "article": 193,
+      "articles": [
+        193
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  },
+  {
+    "strategy": "C",
+    "question_id": "q27",
+    "rank": 3,
+    "chunk_id": "BLLD_45_2019_QH14#C#art189#k5",
+    "document_id": "BLLD_45_2019_QH14",
+    "source": "bo_luat_lao_dong_45_2019_QH14.pdf",
+    "page": 79,
+    "page_start": 79,
+    "page_end": 79,
+    "article": 189,
+    "articles": [
+      189
+    ],
+    "chapter_roman": "XIV",
+    "expected": {
+      "page_start": 79,
+      "page_end": 79,
+      "article": 189,
+      "articles": [
+        189
+      ],
+      "chapter_roman": "XIV"
+    },
+    "document_id_ok": true,
+    "source_ok": true,
+    "text_matches_source_span": true,
+    "page_ok": true,
+    "article_ok": true,
+    "articles_ok": true,
+    "chapter_ok": true,
+    "chapters_spanned": [
+      "XIV"
+    ],
+    "fields_present": true,
+    "complete_and_correct": true,
+    "filter": {
+      "chapter": "XIV"
+    },
+    "filter_compliant_query": true
+  }
+]

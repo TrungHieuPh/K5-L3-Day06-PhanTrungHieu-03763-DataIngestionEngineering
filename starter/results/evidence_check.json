@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "q01",
+    "gold_article": 106,
+    "evidence_chars": 70,
+    "found_in_gold_article": true,
+    "char_span": [
+      90020,
+      90090
+    ]
+  },
+  {
+    "question_id": "q02",
+    "gold_article": 139,
+    "evidence_chars": 119,
+    "found_in_gold_article": true,
+    "char_span": [
+      115011,
+      115130
+    ]
+  },
+  {
+    "question_id": "q03",
+    "gold_article": 107,
+    "evidence_chars": 120,
+    "found_in_gold_article": true,
+    "char_span": [
+      90728,
+      90848
+    ]
+  },
+  {
+    "question_id": "q04",
+    "gold_article": 112,
+    "evidence_chars": 20,
+    "found_in_gold_article": true,
+    "char_span": [
+      94144,
+      94164
+    ]
+  },
+  {
+    "question_id": "q05",
+    "gold_article": 113,
+    "evidence_chars": 72,
+    "found_in_gold_article": true,
+    "char_span": [
+      94942,
+      95014
+    ]
+  },
+  {
+    "question_id": "q06",
+    "gold_article": 220,
+    "evidence_chars": 62,
+    "found_in_gold_article": true,
+    "char_span": [
+      188238,
+      188300
+    ]
+  },
+  {
+    "question_id": "q07",
+    "gold_article": 143,
+    "evidence_chars": 59,
+    "found_in_gold_article": true,
+    "char_span": [
+      117812,
+      117871
+    ]
+  },
+  {
+    "question_id": "q08",
+    "gold_article": 111,
+    "evidence_chars": 59,
+    "found_in_gold_article": true,
+    "char_span": [
+      93375,
+      93434
+    ]
+  },
+  {
+    "question_id": "q09",
+    "gold_article": 20,
+    "evidence_chars": 204,
+    "found_in_gold_article": true,
+    "char_span": [
+      16878,
+      17082
+    ]
+  },
+  {
+    "question_id": "q10",
+    "gold_article": 169,
+    "evidence_chars": 204,
+    "found_in_gold_article": true,
+    "char_span": [
+      135497,
+      135701
+    ]
+  },
+  {
+    "question_id": "q11",
+    "gold_article": 139,
+    "evidence_chars": 119,
+    "found_in_gold_article": true,
+    "char_span": [
+      115011,
+      115130
+    ]
+  },
+  {
+    "question_id": "q12",
+    "gold_article": 124,
+    "evidence_chars": 92,
+    "found_in_gold_article": true,
+    "char_span": [
+      104184,
+      104276
+    ]
+  },
+  {
+    "question_id": "q14",
+    "gold_article": 115,
+    "evidence_chars": 21,
+    "found_in_gold_article": true,
+    "char_span": [
+      96766,
+      96787
+    ]
+  },
+  {
+    "question_id": "q15",
+    "gold_article": 20,
+    "evidence_chars": 102,
+    "found_in_gold_article": true,
+    "char_span": [
+      17219,
+      17321
+    ]
+  },
+  {
+    "question_id": "q16",
+    "gold_article": 14,
+    "evidence_chars": 204,
+    "found_in_gold_article": true,
+    "char_span": [
+      12746,
+      12950
+    ]
+  },
+  {
+    "question_id": "q17",
+    "gold_article": 35,
+    "evidence_chars": 971,
+    "found_in_gold_article": true,
+    "char_span": [
+      30117,
+      31088
+    ]
+  },
+  {
+    "question_id": "q18",
+    "gold_article": 138,
+    "evidence_chars": 232,
+    "found_in_gold_article": true,
+    "char_span": [
+      114098,
+      114330
+    ]
+  },
+  {
+    "question_id": "q19",
+    "gold_article": 125,
+    "evidence_chars": 178,
+    "found_in_gold_article": true,
+    "char_span": [
+      105154,
+      105332
+    ]
+  },
+  {
+    "question_id": "q20",
+    "gold_article": 169,
+    "evidence_chars": 240,
+    "found_in_gold_article": true,
+    "char_span": [
+      136355,
+      136595
+    ]
+  },
+  {
+    "question_id": "q21",
+    "gold_article": 107,
+    "evidence_chars": 562,
+    "found_in_gold_article": true,
+    "char_span": [
+      90286,
+      90848
+    ]
+  },
+  {
+    "question_id": "q23",
+    "gold_article": 125,
+    "evidence_chars": 338,
+    "found_in_gold_article": true,
+    "char_span": [
+      104536,
+      104874
+    ]
+  },
+  {
+    "question_id": "q24",
+    "gold_article": 20,
+    "evidence_chars": 421,
+    "found_in_gold_article": true,
+    "char_span": [
+      16661,
+      17082
+    ]
+  },
+  {
+    "question_id": "q25",
+    "gold_article": 139,
+    "evidence_chars": 116,
+    "found_in_gold_article": true,
+    "char_span": [
+      115131,
+      115247
+    ]
+  },
+  {
+    "question_id": "q26",
+    "gold_article": 188,
+    "evidence_chars": 249,
+    "found_in_gold_article": true,
+    "char_span": [
+      155253,
+      155502
+    ]
+  },
+  {
+    "question_id": "q27",
+    "gold_article": 188,
+    "evidence_chars": 823,
+    "found_in_gold_article": true,
+    "char_span": [
+      155426,
+      156249
+    ]
+  }
+]

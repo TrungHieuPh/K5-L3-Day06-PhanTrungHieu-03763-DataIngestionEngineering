@@ -1,0 +1,305 @@
+{
+  "benchmark_name": "BLLD_45_2019_QH14_bench_v0",
+  "status": "DRAFT_FOR_REVIEW",
+  "notes": "25 câu đề xuất. Học viên review để chốt 20+ câu final, assign split, và sửa câu chữ.",
+  "corpus_id": "BLLD_45_2019_QH14",
+  "gold_reference_unit": "article",
+  "accept_multiple_golds": "Chấp nhận nhiều Điều hợp lệ nếu evidence cùng tồn tại ở các Điều liên quan.",
+
+  "question_types_distribution_target": {
+    "direct": 10,
+    "paraphrase": 6,
+    "conditional": 5,
+    "metadata_filter": 4
+  },
+
+  "questions": [
+    {
+      "id": "q01",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Giờ làm việc ban đêm được tính từ mấy giờ đến mấy giờ?",
+      "expected_answer": "Từ 22 giờ đến 06 giờ sáng ngày hôm sau.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 106,
+      "evidence_quote": "Giờ làm việc ban đêm được tính từ 22 giờ đến 06 giờ sáng ngày hôm sau.",
+      "filter": null
+    },
+    {
+      "id": "q02",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Lao động nữ được nghỉ thai sản trước và sau khi sinh con tổng cộng bao nhiêu tháng?",
+      "expected_answer": "06 tháng.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 139,
+      "evidence_quote": "Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.",
+      "filter": null
+    },
+    {
+      "id": "q03",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Số giờ làm thêm tối đa của người lao động trong 01 năm (trường hợp thông thường) là bao nhiêu?",
+      "expected_answer": "Không quá 200 giờ.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 107,
+      "evidence_quote": "Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này.",
+      "filter": null
+    },
+    {
+      "id": "q04",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Người lao động được nghỉ Tết Âm lịch bao nhiêu ngày?",
+      "expected_answer": "05 ngày.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 112,
+      "evidence_quote": "Tết Âm lịch: 05 ngày.",
+      "filter": null
+    },
+    {
+      "id": "q05",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Số ngày nghỉ hằng năm của người làm công việc trong điều kiện bình thường (đủ 12 tháng cho một người sử dụng lao động) là bao nhiêu?",
+      "expected_answer": "12 ngày làm việc.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 113,
+      "evidence_quote": "12 ngày làm việc đối với người làm công việc trong điều kiện bình thường.",
+      "filter": null
+    },
+    {
+      "id": "q06",
+      "type": "direct",
+      "proposed_split": "test",
+      "question": "Bộ luật Lao động 45/2019/QH14 có hiệu lực thi hành từ ngày nào?",
+      "expected_answer": "01/01/2021.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 220,
+      "evidence_quote": "Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021.",
+      "filter": null
+    },
+    {
+      "id": "q07",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Theo luật, lao động chưa thành niên là người chưa đủ bao nhiêu tuổi?",
+      "expected_answer": "Chưa đủ 18 tuổi.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 143,
+      "evidence_quote": "Lao động chưa thành niên là người lao động chưa đủ 18 tuổi.",
+      "filter": null
+    },
+    {
+      "id": "q08",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Mỗi tuần người lao động được nghỉ ít nhất bao nhiêu giờ liên tục?",
+      "expected_answer": "Ít nhất 24 giờ liên tục.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 111,
+      "evidence_quote": "Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục.",
+      "filter": null
+    },
+    {
+      "id": "q09",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Thời hạn tối đa của hợp đồng lao động xác định thời hạn là bao lâu?",
+      "expected_answer": "Không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 20,
+      "evidence_quote": "Hợp đồng lao động xác định thời hạn là hợp đồng mà trong đó hai bên xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng.",
+      "filter": null
+    },
+    {
+      "id": "q10",
+      "type": "direct",
+      "proposed_split": "dev",
+      "question": "Lao động nam trong điều kiện bình thường sẽ nghỉ hưu ở tuổi 62 vào năm nào?",
+      "expected_answer": "Năm 2028.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 169,
+      "evidence_quote": "Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035.",
+      "filter": null
+    },
+    {
+      "id": "q11",
+      "type": "paraphrase",
+      "proposed_split": "dev",
+      "question": "Mẹ mới sinh con được nghỉ việc mấy tháng theo luật lao động?",
+      "expected_answer": "06 tháng.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 139,
+      "evidence_quote": "Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.",
+      "filter": null
+    },
+    {
+      "id": "q12",
+      "type": "paraphrase",
+      "proposed_split": "dev",
+      "question": "Luật quy định có mấy hình thức xử lý kỷ luật lao động?",
+      "expected_answer": "04 hình thức: khiển trách; kéo dài thời hạn nâng lương không quá 06 tháng; cách chức; sa thải.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 124,
+      "evidence_quote": "1. Khiển trách. 2. Kéo dài thời hạn nâng lương không quá 06 tháng. 3. Cách chức. 4. Sa thải.",
+      "filter": null
+    },
+    {
+      "id": "q13",
+      "type": "paraphrase",
+      "proposed_split": "test",
+      "question": "Mức lương thấp nhất được trả cho người lao động làm công việc giản đơn nhất trong điều kiện bình thường gọi là gì?",
+      "expected_answer": "Mức lương tối thiểu.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 91,
+      "evidence_quote": "Mức lương tối thiểu là mức lương thấp nhất được trả cho người lao động làm công việc giản đơn nhất trong điều kiện lao động bình thường nhằm bảo đảm mức sống tối thiểu của người lao động và gia đình họ.",
+      "filter": null
+    },
+    {
+      "id": "q14",
+      "type": "paraphrase",
+      "proposed_split": "dev",
+      "question": "Khi kết hôn, người lao động được nghỉ việc riêng có hưởng lương bao nhiêu ngày?",
+      "expected_answer": "03 ngày.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 115,
+      "evidence_quote": "Kết hôn: nghỉ 03 ngày.",
+      "filter": null
+    },
+    {
+      "id": "q15",
+      "type": "paraphrase",
+      "proposed_split": "dev",
+      "question": "Sau khi hợp đồng xác định thời hạn hết hạn mà người lao động vẫn tiếp tục làm việc, trong bao nhiêu ngày hai bên phải ký hợp đồng mới?",
+      "expected_answer": "Trong thời hạn 30 ngày.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 20,
+      "evidence_quote": "Trong thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn, hai bên phải ký kết hợp đồng lao động mới.",
+      "filter": null
+    },
+    {
+      "id": "q16",
+      "type": "paraphrase",
+      "proposed_split": "dev",
+      "question": "Hợp đồng lao động có thể giao kết bằng lời nói trong trường hợp nào?",
+      "expected_answer": "Khi hợp đồng có thời hạn dưới 01 tháng (trừ một số trường hợp đặc thù).",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 14,
+      "evidence_quote": "Hai bên có thể giao kết hợp đồng lao động bằng lời nói đối với hợp đồng có thời hạn dưới 01 tháng, trừ trường hợp quy định tại khoản 2 Điều 18, điểm a khoản 1 Điều 145 và khoản 1 Điều 162 của Bộ luật này.",
+      "filter": null
+    },
+    {
+      "id": "q17",
+      "type": "conditional",
+      "proposed_split": "test",
+      "question": "Trong trường hợp nào người lao động được đơn phương chấm dứt hợp đồng lao động mà không cần báo trước?",
+      "expected_answer": "Khi (a) không được bố trí đúng công việc/địa điểm/điều kiện; (b) không được trả đủ lương hoặc trả không đúng hạn; (c) bị NSDLĐ ngược đãi, đánh đập, cưỡng bức lao động; (d) bị quấy rối tình dục; (đ) lao động nữ mang thai phải nghỉ việc theo Điều 138; (e) đủ tuổi nghỉ hưu; (g) NSDLĐ cung cấp thông tin không trung thực.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 35,
+      "evidence_quote": "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây: a) Không được bố trí theo đúng công việc...; b) Không được trả đủ lương hoặc trả lương không đúng thời hạn...; c) Bị người sử dụng lao động ngược đãi, đánh đập hoặc có lời nói, hành vi nhục mạ...; d) Bị quấy rối tình dục tại nơi làm việc; đ) Lao động nữ mang thai phải nghỉ việc theo quy định tại khoản 1 Điều 138...; e) Đủ tuổi nghỉ hưu theo quy định tại Điều 169...; g) Người sử dụng lao động cung cấp thông tin không trung thực...",
+      "filter": null
+    },
+    {
+      "id": "q18",
+      "type": "conditional",
+      "proposed_split": "dev",
+      "question": "Lao động nữ mang thai được quyền đơn phương chấm dứt hoặc tạm hoãn hợp đồng lao động với điều kiện gì?",
+      "expected_answer": "Khi có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 138,
+      "evidence_quote": "Lao động nữ mang thai nếu có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc tiếp tục làm việc sẽ ảnh hưởng xấu tới thai nhi thì có quyền đơn phương chấm dứt hợp đồng lao động hoặc tạm hoãn thực hiện hợp đồng lao động.",
+      "filter": null
+    },
+    {
+      "id": "q19",
+      "type": "conditional",
+      "proposed_split": "dev",
+      "question": "Người lao động tự ý bỏ việc trong bao nhiêu ngày thì có thể bị xử lý kỷ luật sa thải?",
+      "expected_answer": "Tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày, hoặc 20 ngày cộng dồn trong thời hạn 365 ngày, tính từ ngày đầu tiên tự ý bỏ việc mà không có lý do chính đáng.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 125,
+      "evidence_quote": "Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý do chính đáng.",
+      "filter": null
+    },
+    {
+      "id": "q20",
+      "type": "conditional",
+      "proposed_split": "dev",
+      "question": "Người lao động có trình độ chuyên môn, kỹ thuật cao có thể nghỉ hưu ở tuổi cao hơn mức quy định bao nhiêu?",
+      "expected_answer": "Không quá 05 tuổi so với quy định tại khoản 2 Điều 169, trừ trường hợp pháp luật có quy định khác.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 169,
+      "evidence_quote": "Người lao động có trình độ chuyên môn, kỹ thuật cao và một số trường hợp đặc biệt có thể nghỉ hưu ở tuổi cao hơn nhưng không quá 05 tuổi so với quy định tại khoản 2 Điều này tại thời điểm nghỉ hưu, trừ trường hợp pháp luật có quy định khác.",
+      "filter": null
+    },
+    {
+      "id": "q21",
+      "type": "conditional",
+      "proposed_split": "dev",
+      "question": "Khi nào người sử dụng lao động được dùng người lao động làm thêm giờ?",
+      "expected_answer": "Khi (a) được sự đồng ý của người lao động; (b) không quá 50% giờ làm bình thường trong 01 ngày, không quá 40 giờ/tháng; (c) không quá 200 giờ/năm (trừ một số ngành nghề được 300 giờ).",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 107,
+      "evidence_quote": "Người sử dụng lao động được sử dụng người lao động làm thêm giờ khi đáp ứng đầy đủ các yêu cầu sau đây: a) Phải được sự đồng ý của người lao động; b) Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 01 ngày...",
+      "filter": null
+    },
+    {
+      "id": "q22",
+      "type": "metadata_filter",
+      "proposed_split": "dev",
+      "question": "Ngày Giỗ Tổ Hùng Vương (ngày nghỉ lễ) là ngày nào âm lịch?",
+      "expected_answer": "Ngày 10 tháng 3 âm lịch.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 112,
+      "evidence_quote": "Ngày Giỗ Tổ Hùng Vương: 01 ngày (ngày 10 tháng 3 âm lịch).",
+      "filter": {"article": 112}
+    },
+    {
+      "id": "q23",
+      "type": "metadata_filter",
+      "proposed_split": "test",
+      "question": "Hành vi quấy rối tình dục tại nơi làm việc có thể bị xử lý kỷ luật ở hình thức cao nhất nào, nếu đã được quy định trong nội quy lao động?",
+      "expected_answer": "Sa thải.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 125,
+      "evidence_quote": "Người lao động có hành vi ... quấy rối tình dục tại nơi làm việc được quy định trong nội quy lao động.",
+      "filter": {"article": 125}
+    },
+    {
+      "id": "q24",
+      "type": "metadata_filter",
+      "proposed_split": "dev",
+      "question": "Có mấy loại hợp đồng lao động theo luật?",
+      "expected_answer": "02 loại: hợp đồng lao động không xác định thời hạn và hợp đồng lao động xác định thời hạn.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 20,
+      "evidence_quote": "Hợp đồng lao động phải được giao kết theo một trong các loại sau đây: a) Hợp đồng lao động không xác định thời hạn...; b) Hợp đồng lao động xác định thời hạn...",
+      "filter": {"chapter": "III"}
+    },
+    {
+      "id": "q25",
+      "type": "metadata_filter",
+      "proposed_split": "dev",
+      "question": "Lao động nữ sinh đôi trở lên thì được nghỉ thai sản thêm bao nhiêu thời gian mỗi con (tính từ con thứ 2)?",
+      "expected_answer": "Thêm 01 tháng cho mỗi con.",
+      "gold_source_id": "BLLD_45_2019_QH14",
+      "gold_page": 139,
+      "evidence_quote": "Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.",
+      "filter": {"article": 139}
+    }
+  ],
+
+  "proposed_split_summary": {
+    "dev_count_proposed": 21,
+    "test_count_proposed": 4,
+    "filter_questions_in_test_proposed": 1,
+    "note_on_test_size": "GUIDE yêu cầu tối thiểu 5 test. Cần user chọn thêm 1 câu dev → test để đủ."
+  },
+
+  "known_risks": [
+    "Chapter detection trong articles.json bị lệch cho một số Điều (ví dụ Điều 169 bị gán Chương VIII). Filter trong benchmark chủ yếu dùng 'article' để tránh phụ thuộc detection sai.",
+    "Chỉ có 1 câu filter dùng 'chapter' (q24, Chương III = HỢP ĐỒNG LAO ĐỘNG đã verify bằng parser). Nếu Bước 3 fix được chapter, có thể bổ sung thêm filter chapter."
+  ]
+}
